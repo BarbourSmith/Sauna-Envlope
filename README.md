@@ -14,5 +14,7 @@ The shell walls are 60mm thick
 The shell walls are 60mm thick
 
 
+The thickness of the wall wood is 16.6mm
+
 
 

@@ -4385,8 +4385,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Notches",
-                            "x": 0.34656084656084657,
-                            "y": 0.713091922005571,
+                            "x": 0.35185185185185186,
+                            "y": 0.7047353760445683,
                             "uniqueID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
                             "ioValues": [
                                 {
@@ -4471,8 +4471,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.7407407407407407,
-                                    "y": 0.17827298050139276,
+                                    "x": 0.7387566137566137,
+                                    "y": 0.17270194986072424,
                                     "uniqueID": "317f34ff-ac5a-4f93-98b1-610f9d036d6b",
                                     "ioValues": [
                                         {
@@ -4574,8 +4574,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.32936507936507936,
-                                    "y": 0.6703910614525139,
+                                    "x": 0.37433862433862436,
+                                    "y": 0.2646239554317549,
                                     "uniqueID": "587c9f9a-50bc-44ca-926b-36de72a5affb",
                                     "ioValues": [
                                         {
@@ -4600,7 +4600,7 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.2969576719576719,
+                                    "x": 0.30158730158730157,
                                     "y": 0.7994428969359332,
                                     "uniqueID": "22e2cc35-8b11-47a8-8a20-4e522389dd1c",
                                     "ioValues": [
@@ -4678,8 +4678,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.35449735449735453,
-                                    "y": 0.3770949720670391,
+                                    "x": 0.34325396825396826,
+                                    "y": 0.47632311977715874,
                                     "uniqueID": "47c41583-6a1a-426f-84e6-24547c669635",
                                     "ioValues": [
                                         {
@@ -4704,8 +4704,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4417989417989418,
-                                    "y": 0.8133704735376045,
+                                    "x": 0.453042328042328,
+                                    "y": 0.8161559888579387,
                                     "uniqueID": "72d33dbd-e399-41db-81a9-2434d9d48a40",
                                     "ioValues": [
                                         {
@@ -4795,7 +4795,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -1245.8600000000001
+                                            "ioValue": -1245
                                         },
                                         {
                                             "name": "yDist",
@@ -4812,7 +4812,7 @@
                                     "atomType": "Move",
                                     "name": "Move",
                                     "x": 0.453042328042328,
-                                    "y": 0.17318435754189943,
+                                    "y": 0.1894150417827298,
                                     "uniqueID": "1bba4916-edcc-41f6-83a1-33e56245b28b",
                                     "ioValues": [
                                         {
@@ -4821,7 +4821,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 1245.8600000000001
+                                            "ioValue": 1245
                                         },
                                         {
                                             "name": "yDist",
@@ -4836,7 +4836,7 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "1209.0+(2*T)+17.46",
+                                    "name": "1209.0+(2*T)+16.6",
                                     "x": 0.2804232804232804,
                                     "y": 0.16759776536312848,
                                     "uniqueID": "f07340c4-bf53-484a-af3e-0aa73df5df32",
@@ -4847,7 +4847,7 @@
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                                    "currentEquation": "1209.0+(2*T)+17.46"
+                                    "currentEquation": "1209.0+(2*T)+16.6"
                                 },
                                 {
                                     "atomType": "Equation",
@@ -4858,7 +4858,7 @@
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 1245.8600000000001
+                                            "ioValue": 1245
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4945,6 +4945,17 @@
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Readme",
+                                    "name": "README",
+                                    "x": 0.748015873015873,
+                                    "y": 0.8356545961002785,
+                                    "uniqueID": "8b0017ba-b1b2-46cd-94e6-f9613416b08c",
+                                    "ioValues": [],
+                                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                                    "readmeText": "The thickness of the wall wood is 16.6mm",
+                                    "global": true
                                 }
                             ],
                             "allConnectors": [
@@ -5481,8 +5492,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.6362433862433862,
-                    "y": 0.5821727019498607,
+                    "x": 0.6593915343915344,
+                    "y": 0.6350974930362118,
                     "uniqueID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
                     "ioValues": [
                         {
@@ -5735,8 +5746,8 @@
                 {
                     "atomType": "Gcode",
                     "name": "Gcode",
-                    "x": 0.7691798941798942,
-                    "y": 0.7047353760445683,
+                    "x": 0.7916666666666667,
+                    "y": 0.7214484679665739,
                     "uniqueID": "c8fd07e6-a845-41a1-8e55-04370997a0a7",
                     "ioValues": [
                         {
