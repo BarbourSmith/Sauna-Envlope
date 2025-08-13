@@ -2260,8 +2260,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.3181216931216931,
-                                    "y": 0.6239554317548747,
+                                    "x": 0.289021164021164,
+                                    "y": 0.8217270194986073,
                                     "uniqueID": "4ce78d46-0271-47f1-9916-25d20f563bc3",
                                     "ioValues": [
                                         {
@@ -2278,23 +2278,633 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.4444444444444444,
-                                    "y": 0.596100278551532,
+                                    "x": 0.45238095238095233,
+                                    "y": 0.7632311977715878,
                                     "uniqueID": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa",
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": ""
+                                            "ioValue": "4ce78d46-0271-47f1-9916-25d20f563bc3"
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 150
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                                },
+                                {
+                                    "atomType": "Intersection",
+                                    "name": "Intersection",
+                                    "x": 0.542989417989418,
+                                    "y": 0.5153203342618384,
+                                    "uniqueID": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry1",
+                                            "ioValue": "57943c77-cde2-402d-8924-763a96822431"
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa"
+                                        }
+                                    ],
+                                    "description": "The space shared by two shapes."
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Linear-Pattern",
+                                    "x": 0.6891534391534391,
+                                    "y": 0.5877437325905293,
+                                    "uniqueID": "6907a88c-cf81-42d7-b82e-07faf080bb73",
+                                    "ioValues": [
+                                        {
+                                            "name": "Number",
+                                            "ioValue": 9
+                                        },
+                                        {
+                                            "name": "Dist",
+                                            "ioValue": 100
+                                        },
+                                        {
+                                            "name": "Geometry",
+                                            "ioValue": "7829002b-6c04-4e24-99cf-5a3f7ee21d8b"
+                                        }
+                                    ],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": "6a36b1e9-7f9e-4aad-b47d-9ece5d5adf13",
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d"
+                                                }
+                                            ],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Code",
+                                            "name": "Code",
+                                            "x": 0.5112433862433863,
+                                            "y": 0.4345403899721449,
+                                            "uniqueID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d",
+                                            "ioValues": [
+                                                {
+                                                    "name": "Shape",
+                                                    "ioValue": "7829002b-6c04-4e24-99cf-5a3f7ee21d8b"
+                                                },
+                                                {
+                                                    "name": "Number",
+                                                    "ioValue": 9
+                                                },
+                                                {
+                                                    "name": "Dist",
+                                                    "ioValue": 100
+                                                }
+                                            ],
+                                            "description": "Defines a Replicad code block.",
+                                            "codeVersion": 1,
+                                            "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                                        },
+                                        {
+                                            "atomType": "Rectangle",
+                                            "name": "Rectangle",
+                                            "x": 0.27976190476190477,
+                                            "y": 0.2116991643454039,
+                                            "uniqueID": "578cb1e6-7a5e-443b-b0b9-9f3e2b2d76a8",
+                                            "ioValues": [
+                                                {
+                                                    "name": "x length",
+                                                    "ioValue": 10
+                                                },
+                                                {
+                                                    "name": "y length",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Creates a new rectangle."
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Number",
+                                            "x": 0.029699999999999997,
+                                            "y": 0.32869080779944293,
+                                            "uniqueID": "1e0f4760-f52e-436e-bef0-1203b916d65a",
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Dist",
+                                            "x": 0.029699999999999997,
+                                            "y": 0.6434540389972144,
+                                            "uniqueID": "8662f8cc-a01c-4a22-88f8-f218fdb9ea10",
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Geometry",
+                                            "x": 0.029699999999999997,
+                                            "y": 0.9108635097493036,
+                                            "uniqueID": "80784589-39d5-47ec-897d-1f220cba1794",
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "number or geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d",
+                                            "ap2ID": "6a36b1e9-7f9e-4aad-b47d-9ece5d5adf13"
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "Number",
+                                            "ap2Primary": false,
+                                            "ap1ID": "1e0f4760-f52e-436e-bef0-1203b916d65a",
+                                            "ap2ID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d"
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "Dist",
+                                            "ap2Primary": false,
+                                            "ap1ID": "8662f8cc-a01c-4a22-88f8-f218fdb9ea10",
+                                            "ap2ID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d"
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "Shape",
+                                            "ap2Primary": false,
+                                            "ap1ID": "80784589-39d5-47ec-897d-1f220cba1794",
+                                            "ap2ID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d"
+                                        }
+                                    ],
+                                    "parentRepo": {
+                                        "lastFoundGit": "2025-08-13T15:47:14.798Z",
+                                        "privateRepo": false,
+                                        "repoName": "Linear-Pattern",
+                                        "dateCreated": "2025-02-19T00:40:13Z",
+                                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/README.md?sanitize=true",
+                                        "yyyy": 2025,
+                                        "topMoleculeID": 1739925613779,
+                                        "githubMoleculesUsed": [],
+                                        "html_url": "https://github.com/BarbourSmith/Linear-Pattern",
+                                        "topics": [],
+                                        "parentRepo": null,
+                                        "forks": 1,
+                                        "dateModified": "739301",
+                                        "ranking": 0,
+                                        "searchField": "linear-pattern barboursmith returns the input shape formed into an assembly translated n times ",
+                                        "owner": "BarbourSmith",
+                                        "description": "Returns the input shape formed into an assembly translated n times",
+                                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.abundance?sanitize=true",
+                                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.svg?sanitize=true",
+                                        "isLocal": false
+                                    },
+                                    "unitsKey": "MM",
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": []
+                                },
+                                {
+                                    "atomType": "CutLayout",
+                                    "name": "Cut Layout",
+                                    "x": 0.8062169312169312,
+                                    "y": 0.6545961002785515,
+                                    "uniqueID": "8ec84537-0322-4d9d-95c2-f1c99fcd3738",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "6907a88c-cf81-42d7-b82e-07faf080bb73"
+                                        },
+                                        {
+                                            "name": "Sheet Width",
+                                            "ioValue": 1219
+                                        },
+                                        {
+                                            "name": "Sheet Height",
+                                            "ioValue": 2438
+                                        },
+                                        {
+                                            "name": "Part Padding",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                                    "placements": [
+                                        [
+                                            {
+                                                "id": 3,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 80.19545335224322,
+                                                    "y": 43.1023317
+                                                }
+                                            },
+                                            {
+                                                "id": 8,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 43.10481820000001,
+                                                    "y": 166.40260322818727
+                                                }
+                                            },
+                                            {
+                                                "id": 23,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 89.40194600630412,
+                                                    "y": 263.04583111266356
+                                                }
+                                            },
+                                            {
+                                                "id": 13,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 203.50481817594596,
+                                                    "y": 148.45051949999998
+                                                }
+                                            },
+                                            {
+                                                "id": 0,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 121.2995044626324,
+                                                    "y": 382.05519812277
+                                                }
+                                            },
+                                            {
+                                                "id": 18,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 98.6075372138753,
+                                                    "y": 461.1534931565702
+                                                }
+                                            },
+                                            {
+                                                "id": 28,
+                                                "rotate": 150,
+                                                "translate": {
+                                                    "x": 90.9925710671007,
+                                                    "y": 398.7818132464125
+                                                }
+                                            },
+                                            {
+                                                "id": 38,
+                                                "rotate": 240,
+                                                "translate": {
+                                                    "x": 227.55775821266357,
+                                                    "y": 325.66692299369583
+                                                }
+                                            },
+                                            {
+                                                "id": 43,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 86.60424476482959,
+                                                    "y": 557.0107406276442
+                                                }
+                                            },
+                                            {
+                                                "id": 5,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 247.0042448,
+                                                    "y": 512.7976827
+                                                }
+                                            },
+                                            {
+                                                "id": 10,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 290.2221190166583,
+                                                    "y": 147.47131655382532
+                                                }
+                                            },
+                                            {
+                                                "id": 33,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 326.79883328733644,
+                                                    "y": 232.37079620630414
+                                                }
+                                            },
+                                            {
+                                                "id": 15,
+                                                "rotate": 240,
+                                                "translate": {
+                                                    "x": 331.0551066126636,
+                                                    "y": 451.12666459369586
+                                                }
+                                            },
+                                            {
+                                                "id": 20,
+                                                "rotate": 300,
+                                                "translate": {
+                                                    "x": 289.9799702591754,
+                                                    "y": 145.12395315745437
+                                                }
+                                            },
+                                            {
+                                                "id": 30,
+                                                "rotate": 30,
+                                                "translate": {
+                                                    "x": 239.40432757352517,
+                                                    "y": 631.7212169591722
+                                                }
+                                            },
+                                            {
+                                                "id": 35,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 351.62236378493765,
+                                                    "y": 620.7331572295593
+                                                }
+                                            },
+                                            {
+                                                "id": 25,
+                                                "rotate": 240,
+                                                "translate": {
+                                                    "x": 59.111363612663574,
+                                                    "y": 689.6040968030525
+                                                }
+                                            },
+                                            {
+                                                "id": 40,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 381.92728429999994,
+                                                    "y": 301.3927933
+                                                }
+                                            },
+                                            {
+                                                "id": 29,
+                                                "rotate": 60,
+                                                "translate": {
+                                                    "x": 178.47970036436055,
+                                                    "y": 730.6440079199062
+                                                }
+                                            },
+                                            {
+                                                "id": 34,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 331.62412169966444,
+                                                    "y": 740.6798492817873
+                                                }
+                                            },
+                                            {
+                                                "id": 44,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 96.14269451990617,
+                                                    "y": 806.7622031356394
+                                                }
+                                            },
+                                            {
+                                                "id": 4,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 212.70564759807905,
+                                                    "y": 830.7688476623504
+                                                }
+                                            },
+                                            {
+                                                "id": 9,
+                                                "rotate": 30,
+                                                "translate": {
+                                                    "x": 145.17438572227053,
+                                                    "y": 922.0454738189159
+                                                }
+                                            },
+                                            {
+                                                "id": 14,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 332.6835068546384,
+                                                    "y": 860.6662097718065
+                                                }
+                                            },
+                                            {
+                                                "id": 39,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 344.04990715292416,
+                                                    "y": 972.728907955076
+                                                }
+                                            },
+                                            {
+                                                "id": 19,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 49.920547481084185,
+                                                    "y": 1005.5534941222706
+                                                }
+                                            },
+                                            {
+                                                "id": 24,
+                                                "rotate": 210,
+                                                "translate": {
+                                                    "x": 183.49532697772946,
+                                                    "y": 1014.1679080810842
+                                                }
+                                            },
+                                            {
+                                                "id": 6,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 315.0780830943363,
+                                                    "y": 1085.540290238585
+                                                }
+                                            },
+                                            {
+                                                "id": 1,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 134.7439256999925,
+                                                    "y": 1089.5985262023707
+                                                }
+                                            },
+                                            {
+                                                "id": 16,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 353.13878248089134,
+                                                    "y": 1166.5021486978283
+                                                }
+                                            },
+                                            {
+                                                "id": 11,
+                                                "rotate": 30,
+                                                "translate": {
+                                                    "x": 73.65377656427857,
+                                                    "y": 1184.591476527283
+                                                }
+                                            },
+                                            {
+                                                "id": 21,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 201.25913277328863,
+                                                    "y": 1209.580636075652
+                                                }
+                                            },
+                                            {
+                                                "id": 31,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 247.26026627271688,
+                                                    "y": 1290.5871224642785
+                                                }
+                                            },
+                                            {
+                                                "id": 36,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 376.4627809667785,
+                                                    "y": 1305.5048608506047
+                                                }
+                                            },
+                                            {
+                                                "id": 41,
+                                                "rotate": 150,
+                                                "translate": {
+                                                    "x": 75.69960633809217,
+                                                    "y": 1298.5637012727243
+                                                }
+                                            },
+                                            {
+                                                "id": 26,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 405.82294499762924,
+                                                    "y": 83.9841051999925
+                                                }
+                                            },
+                                            {
+                                                "id": 37,
+                                                "rotate": 300,
+                                                "translate": {
+                                                    "x": 22.983309388119558,
+                                                    "y": 1264.4788568295019
+                                                }
+                                            },
+                                            {
+                                                "id": 7,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 21.02531250963957,
+                                                    "y": 1244.002994335724
+                                                }
+                                            },
+                                            {
+                                                "id": 42,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 13.918783364276392,
+                                                    "y": 1214.4204744096394
+                                                }
+                                            },
+                                            {
+                                                "id": 2,
+                                                "rotate": 240,
+                                                "translate": {
+                                                    "x": 7.353938141339741,
+                                                    "y": 1097.1822168882798
+                                                }
+                                            },
+                                            {
+                                                "id": 17,
+                                                "rotate": 300,
+                                                "translate": {
+                                                    "x": 23.071031065630844,
+                                                    "y": 716.985730249022
+                                                }
+                                            },
+                                            {
+                                                "id": 22,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 21.02531250963957,
+                                                    "y": 946.6437463357237
+                                                }
+                                            },
+                                            {
+                                                "id": 27,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 13.449403290360427,
+                                                    "y": 930.7766568642763
+                                                }
+                                            },
+                                            {
+                                                "id": 32,
+                                                "rotate": 210,
+                                                "translate": {
+                                                    "x": 8.541677824003497,
+                                                    "y": 988.3920799490207
+                                                }
+                                            },
+                                            {
+                                                "id": 12,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 13.91878336427635,
+                                                    "y": 904.6983001096395
+                                                }
+                                            }
+                                        ]
+                                    ]
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
+                                    "ap1ID": "18feed4e-6254-451d-980c-55442fa16047",
+                                    "ap2ID": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "4ce78d46-0271-47f1-9916-25d20f563bc3",
+                                    "ap2ID": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry2",
+                                    "ap2Primary": false,
+                                    "ap1ID": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa",
+                                    "ap2ID": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b",
+                                    "ap2ID": "6907a88c-cf81-42d7-b82e-07faf080bb73"
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "6907a88c-cf81-42d7-b82e-07faf080bb73",
+                                    "ap2ID": "8ec84537-0322-4d9d-95c2-f1c99fcd3738"
+                                }
+                            ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         }
