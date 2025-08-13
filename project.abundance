@@ -707,8 +707,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.35648148148148145,
-            "y": 0.8356545961002785,
+            "x": 0.3611111111111111,
+            "y": 0.8495821727019498,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -5776,7 +5776,8 @@
                         }
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                    "partName": "Split Apart"
+                    "partName": "Split Apart",
+                    "sortDirection": "Top"
                 },
                 {
                     "atomType": "Rectangle",
