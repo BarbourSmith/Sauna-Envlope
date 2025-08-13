@@ -717,7 +717,7 @@
                 },
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 9.7
+                    "ioValue": 10.5
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -765,7 +765,7 @@
                         },
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 9.7
+                            "ioValue": 10.5
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -882,7 +882,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -9.7
+                                    "ioValue": -10.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -914,7 +914,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -929,7 +929,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -976,7 +976,7 @@
                                         },
                                         {
                                             "name": "Thickness",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1013,7 +1013,7 @@
                                                 },
                                                 {
                                                     "name": "thickness",
-                                                    "ioValue": 9.7
+                                                    "ioValue": 10.5
                                                 }
                                             ],
                                             "description": "Defines a Replicad code block.",
@@ -1491,7 +1491,7 @@
                                 },
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1874,7 +1874,7 @@
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 23.4
+                                            "ioValue": 25
                                         }
                                     ],
                                     "description": "Creates a new rectangle."
@@ -1898,7 +1898,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1983,7 +1983,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 23.4
+                                            "ioValue": 25
                                         },
                                         {
                                             "name": "y length",
@@ -3069,7 +3069,7 @@
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 9.7
+                            "ioValue": 10.5
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3860,7 +3860,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -9.7
+                                    "ioValue": -10.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3874,7 +3874,7 @@
                             "ioValues": [
                                 {
                                     "name": "h",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3906,7 +3906,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3967,7 +3967,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3981,7 +3981,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4008,7 +4008,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -9.7
+                                            "ioValue": -10.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4147,7 +4147,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4191,7 +4191,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -9.7
+                                            "ioValue": -10.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4209,7 +4209,7 @@
                                         },
                                         {
                                             "name": "Wood Thickness",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -4270,7 +4270,7 @@
                                                 },
                                                 {
                                                     "name": "height",
-                                                    "ioValue": 9.7
+                                                    "ioValue": 10.5
                                                 }
                                             ],
                                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4360,7 +4360,7 @@
                                                 },
                                                 {
                                                     "name": "height",
-                                                    "ioValue": 9.7
+                                                    "ioValue": 10.5
                                                 }
                                             ],
                                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4448,7 +4448,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": -9.7
+                                                    "ioValue": -10.5
                                                 }
                                             ],
                                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4506,7 +4506,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "T",
-                                                    "ioValue": 9.7
+                                                    "ioValue": 10.5
                                                 }
                                             ],
                                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4823,7 +4823,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 9.7
+                                    "ioValue": 10.5
                                 },
                                 {
                                     "name": "Input Geometry",
@@ -4856,7 +4856,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 19.4
+                                            "ioValue": 21
                                         },
                                         {
                                             "name": "y length",
@@ -4874,7 +4874,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4931,7 +4931,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 19.4
+                                            "ioValue": 21
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -4945,7 +4945,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4972,7 +4972,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -9.7
+                                            "ioValue": -10.5
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -5227,7 +5227,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -1245
+                                            "ioValue": -1246.6
                                         },
                                         {
                                             "name": "yDist",
@@ -5253,7 +5253,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 1245
+                                            "ioValue": 1246.6
                                         },
                                         {
                                             "name": "yDist",
@@ -5275,7 +5275,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -5290,7 +5290,7 @@
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 1245
+                                            "ioValue": 1246.6
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -5309,7 +5309,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 1361.8999999999999
+                                            "ioValue": 1361.1
                                         },
                                         {
                                             "name": "yDist",
@@ -5331,7 +5331,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 9.7
+                                            "ioValue": 10.5
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -5346,7 +5346,7 @@
                                     "ioValues": [
                                         {
                                             "name": "X",
-                                            "ioValue": 1361.8999999999999
+                                            "ioValue": 1361.1
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -5365,7 +5365,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -1361.8999999999999
+                                            "ioValue": -1361.1
                                         },
                                         {
                                             "name": "yDist",
@@ -6209,7 +6209,7 @@
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                     "partName": "Split Apart",
-                    "sortDirection": "Left"
+                    "sortDirection": "Top"
                 },
                 {
                     "atomType": "Rectangle",
