@@ -729,12 +729,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "409a2508-217c-43b6-a4d4-c31533884b69",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "98245218-57e5-4529-a068-4678ded84c04"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -6197,11 +6192,11 @@
                         },
                         {
                             "name": "Passes",
-                            "ioValue": 2
+                            "ioValue": 1
                         },
                         {
                             "name": "Speed",
-                            "ioValue": 1500
+                            "ioValue": 1800
                         },
                         {
                             "name": "Cut Through",
@@ -6209,12 +6204,12 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Runners"
+                            "ioValue": "Split Apart"
                         }
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                    "partName": "Runners",
-                    "sortDirection": "Top"
+                    "partName": "Split Apart",
+                    "sortDirection": "Left"
                 },
                 {
                     "atomType": "Rectangle",
@@ -6323,13 +6318,6 @@
                     "ap2Primary": false,
                     "ap1ID": "da7a8274-4de4-442e-9102-c6e03aec55ec",
                     "ap2ID": "c8fd07e6-a845-41a1-8e55-04370997a0a7"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "98245218-57e5-4529-a068-4678ded84c04",
-                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
                 }
             ],
             "fileTypeVersion": 1,
