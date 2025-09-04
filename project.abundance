@@ -26,8 +26,8 @@
         {
             "atomType": "Molecule",
             "name": "Envlope",
-            "x": 0.04497354497354498,
-            "y": 0.2924791086350975,
+            "x": 0.06084656084656084,
+            "y": 0.25348189415041783,
             "uniqueID": "0a40ea50-8d5e-49ae-bd3b-df35fa44f718",
             "ioValues": [
                 {
@@ -7041,8 +7041,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.8253968253968255,
-                    "y": 0.23676880222841226,
+                    "x": 0.8293650793650793,
+                    "y": 0.2841225626740947,
                     "uniqueID": "55d17a6f-2476-4572-a768-b5541cbb2bb8",
                     "ioValues": [
                         {
@@ -7307,8 +7307,8 @@
                 {
                     "atomType": "Gcode",
                     "name": "Gcode",
-                    "x": 0.8379629629629629,
-                    "y": 0.7214484679665739,
+                    "x": 0.8373015873015873,
+                    "y": 0.7381615598885795,
                     "uniqueID": "628aba83-d959-4e3a-a6fe-2a3106068e67",
                     "ioValues": [
                         {
@@ -7333,7 +7333,7 @@
                         },
                         {
                             "name": "Cut Through",
-                            "ioValue": 1.35,
+                            "ioValue": 2.35,
                             "currentEquation": null
                         },
                         {
@@ -7493,8 +7493,8 @@
         {
             "atomType": "Molecule",
             "name": "Inside",
-            "x": 0.050463439752832136,
-            "y": 0.8551532033426184,
+            "x": 0.03968253968253968,
+            "y": 0.7715877437325905,
             "uniqueID": "640d0386-690e-4a92-87d6-4c1bad03d0b7",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
