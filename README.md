@@ -6,18 +6,15 @@
 
 
 
- We have a 1828.8mm circle at height 1000mm and two 2200mm circles at X 1709.6 and Y -65.4
+ Readme text here
 
-The shell walls are 60mm thick
+Readme text here
 
+Readme text here
 
-The shell walls are 60mm thick
+Readme text here
 
-
-The thickness of the wall wood is 16.6mm
-
-1719 was the original height of the top spacer
-
+Readme text here
 
 
 
