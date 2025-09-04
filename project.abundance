@@ -7307,9 +7307,9 @@
                 {
                     "atomType": "Gcode",
                     "name": "Gcode",
-                    "x": 0.8326719576719576,
-                    "y": 0.7047353760445683,
-                    "uniqueID": "90dae6a0-f66c-44f1-a334-2351353cac65",
+                    "x": 0.8379629629629629,
+                    "y": 0.7214484679665739,
+                    "uniqueID": "628aba83-d959-4e3a-a6fe-2a3106068e67",
                     "ioValues": [
                         {
                             "name": "geometry",
@@ -7318,7 +7318,7 @@
                         },
                         {
                             "name": "Tool Size",
-                            "ioValue": 6.35,
+                            "ioValue": 0.25,
                             "currentEquation": null
                         },
                         {
@@ -7328,7 +7328,7 @@
                         },
                         {
                             "name": "Speed",
-                            "ioValue": 1500,
+                            "ioValue": 2000,
                             "currentEquation": null
                         },
                         {
@@ -7338,12 +7338,12 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Split Apart",
+                            "ioValue": "Last Ring",
                             "currentEquation": null
                         }
                     ],
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                    "partName": "Split Apart",
+                    "partName": "Last Ring",
                     "sortDirection": "Left"
                 }
             ],
@@ -7454,7 +7454,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": "55d17a6f-2476-4572-a768-b5541cbb2bb8",
-                    "ap2ID": "90dae6a0-f66c-44f1-a334-2351353cac65"
+                    "ap2ID": "628aba83-d959-4e3a-a6fe-2a3106068e67"
                 }
             ],
             "fileTypeVersion": 1,
