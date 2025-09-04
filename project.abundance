@@ -7060,8 +7060,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7261904761904762,
-                    "y": 0.25348189415041783,
+                    "x": 0.7275132275132276,
+                    "y": 0.2757660167130919,
                     "uniqueID": "c52c4d97-f9f2-4d9c-86e0-b89da99f4b66",
                     "ioValues": [
                         {
@@ -7078,15 +7078,10 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.8280423280423281,
-                    "y": 0.3231197771587744,
+                    "x": 0.8267195767195767,
+                    "y": 0.25069637883008355,
                     "uniqueID": "55d17a6f-2476-4572-a768-b5541cbb2bb8",
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "c52c4d97-f9f2-4d9c-86e0-b89da99f4b66",
-                            "currentEquation": null
-                        },
                         {
                             "name": "Sheet Width",
                             "ioValue": 2438,
@@ -7126,7 +7121,7 @@
                                 "id": 2,
                                 "rotate": 90,
                                 "translate": {
-                                    "x": -410,
+                                    "x": -310,
                                     "y": 100
                                 }
                             },
@@ -7134,7 +7129,7 @@
                                 "id": 3,
                                 "rotate": 90,
                                 "translate": {
-                                    "x": -410,
+                                    "x": -310,
                                     "y": -60
                                 }
                             },
@@ -7196,15 +7191,15 @@
                             },
                             {
                                 "id": 11,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
-                                    "x": 0,
-                                    "y": 999
+                                    "x": 30,
+                                    "y": 300
                                 }
                             },
                             {
                                 "id": 12,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7212,7 +7207,7 @@
                             },
                             {
                                 "id": 13,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7220,7 +7215,7 @@
                             },
                             {
                                 "id": 14,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7228,7 +7223,7 @@
                             },
                             {
                                 "id": 15,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7236,7 +7231,7 @@
                             },
                             {
                                 "id": 16,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7244,7 +7239,7 @@
                             },
                             {
                                 "id": 17,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7252,7 +7247,7 @@
                             },
                             {
                                 "id": 18,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7260,7 +7255,7 @@
                             },
                             {
                                 "id": 19,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7268,7 +7263,7 @@
                             },
                             {
                                 "id": 20,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7276,7 +7271,7 @@
                             },
                             {
                                 "id": 21,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7284,7 +7279,7 @@
                             },
                             {
                                 "id": 22,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7292,7 +7287,7 @@
                             },
                             {
                                 "id": 23,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7300,7 +7295,7 @@
                             },
                             {
                                 "id": 24,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7308,7 +7303,7 @@
                             },
                             {
                                 "id": 25,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7316,7 +7311,7 @@
                             },
                             {
                                 "id": 26,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7324,7 +7319,7 @@
                             },
                             {
                                 "id": 27,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
@@ -7332,7 +7327,7 @@
                             },
                             {
                                 "id": 28,
-                                "rotate": 0,
+                                "rotate": 90,
                                 "translate": {
                                     "x": 0,
                                     "y": 999
