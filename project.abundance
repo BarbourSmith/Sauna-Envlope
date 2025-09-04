@@ -760,7 +760,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "409a2508-217c-43b6-a4d4-c31533884b69",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "98245218-57e5-4529-a068-4678ded84c04",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -786,8 +792,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring",
-                    "x": 0.29563492063492064,
-                    "y": 0.34261838440111425,
+                    "x": 0.30092592592592593,
+                    "y": 0.33704735376044564,
                     "uniqueID": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7",
                     "ioValues": [
                         {
@@ -813,7 +819,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1739774145131,
+                                    "ioValue": "57943c77-cde2-402d-8924-763a96822431",
                                     "currentEquation": null
                                 }
                             ],
@@ -868,24 +874,10 @@
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.9054232804232805,
-                            "y": 0.5515320334261838,
-                            "uniqueID": 1739774145131,
-                            "ioValues": [
-                                {
-                                    "name": "Shape 12",
-                                    "ioValue": "4c815208-1bec-4ea8-85cd-ee13cef9c217"
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                        },
-                        {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.6302910052910052,
-                            "y": 0.8440111420612814,
+                            "x": 0.6342592592592592,
+                            "y": 0.5682451253481894,
                             "uniqueID": 1739774163691,
                             "ioValues": [
                                 {
@@ -1507,8 +1499,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6276455026455026,
-                            "y": 0.4818941504178273,
+                            "x": 0.6197089947089947,
+                            "y": 0.3593314763231198,
                             "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                             "ioValues": [
                                 {
@@ -2242,8 +2234,8 @@
                         {
                             "atomType": "Tag",
                             "name": "Ring Wood",
-                            "x": 0.3558201058201058,
-                            "y": 0.2479108635097493,
+                            "x": 0.3584656084656085,
+                            "y": 0.25069637883008355,
                             "uniqueID": "f683e790-1410-404f-a46b-25ba9749615b",
                             "ioValues": [
                                 {
@@ -2290,8 +2282,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7843915343915343,
-                            "y": 0.5682451253481894,
+                            "x": 0.7605820105820106,
+                            "y": 0.40111420612813375,
                             "uniqueID": "57943c77-cde2-402d-8924-763a96822431",
                             "ioValues": [
                                 {
@@ -2310,7 +2302,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape",
-                                    "ioValue": "57943c77-cde2-402d-8924-763a96822431",
+                                    "ioValue": "888f3970-1adc-4f52-baf5-77df7a8b68ca",
                                     "currentEquation": null
                                 }
                             ],
@@ -2323,7 +2315,13 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "0d4f3087-1e3b-4ef2-ac08-72507aa273d4",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "6907a88c-cf81-42d7-b82e-07faf080bb73",
+                                            "currentEquation": null
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -2359,14 +2357,19 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.45238095238095233,
-                                    "y": 0.7632311977715878,
+                                    "x": 0.4563492063492064,
+                                    "y": 0.7743732590529249,
                                     "uniqueID": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa",
                                     "ioValues": [
                                         {
-                                            "name": "height",
-                                            "ioValue": 150,
+                                            "name": "geometry",
+                                            "ioValue": "4ce78d46-0271-47f1-9916-25d20f563bc3",
                                             "currentEquation": null
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 250,
+                                            "currentEquation": "250"
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2374,17 +2377,28 @@
                                 {
                                     "atomType": "Intersection",
                                     "name": "Intersection",
-                                    "x": 0.542989417989418,
-                                    "y": 0.5153203342618384,
+                                    "x": 0.5423280423280423,
+                                    "y": 0.5348189415041783,
                                     "uniqueID": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry1",
+                                            "ioValue": "888f3970-1adc-4f52-baf5-77df7a8b68ca",
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": "ddd87297-d7fa-4d50-8eff-2d531b7e00aa",
+                                            "currentEquation": null
+                                        }
+                                    ],
                                     "description": "The space shared by two shapes."
                                 },
                                 {
                                     "atomType": "GitHubMolecule",
                                     "name": "Linear-Pattern",
-                                    "x": 0.6891534391534391,
-                                    "y": 0.5877437325905293,
+                                    "x": 0.6858465608465608,
+                                    "y": 0.5793871866295265,
                                     "uniqueID": "6907a88c-cf81-42d7-b82e-07faf080bb73",
                                     "ioValues": [
                                         {
@@ -2395,6 +2409,11 @@
                                         {
                                             "name": "Dist",
                                             "ioValue": 100,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Geometry",
+                                            "ioValue": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b",
                                             "currentEquation": null
                                         }
                                     ],
@@ -2407,7 +2426,13 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": "6a36b1e9-7f9e-4aad-b47d-9ece5d5adf13",
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d",
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -2416,7 +2441,23 @@
                                             "x": 0.5112433862433863,
                                             "y": 0.4345403899721449,
                                             "uniqueID": "afa69a6b-a8e6-4a08-8c20-25a53c27e07d",
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "Shape",
+                                                    "ioValue": "7829e02b-6c04-4e24-99cf-5a3f7ee21d8b",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Number",
+                                                    "ioValue": 9,
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Dist",
+                                                    "ioValue": 100,
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Defines a Replicad code block.",
                                             "codeVersion": 1,
                                             "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -2531,6 +2572,11 @@
                                     "y": 0.6545961002785515,
                                     "uniqueID": "8ec84537-0322-4d9d-95c2-f1c99fcd3738",
                                     "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "6907a88c-cf81-42d7-b82e-07faf080bb73",
+                                            "currentEquation": null
+                                        },
                                         {
                                             "name": "Sheet Width",
                                             "ioValue": 1219,
@@ -2944,10 +2990,16 @@
                                     "ap2Name": "geometry",
                                     "ap1ID": "6907a88c-cf81-42d7-b82e-07faf080bb73",
                                     "ap2ID": "8ec84537-0322-4d9d-95c2-f1c99fcd3738"
+                                },
+                                {
+                                    "ap1Name": "geometry or number",
+                                    "ap2Name": "number or geometry",
+                                    "ap1ID": "6907a88c-cf81-42d7-b82e-07faf080bb73",
+                                    "ap2ID": "0d4f3087-1e3b-4ef2-ac08-72507aa273d4"
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
                         }
                     ],
                     "allConnectors": [
@@ -2956,6 +3008,12 @@
                             "ap2Name": "geometry2",
                             "ap1ID": 1739774127060,
                             "ap2ID": 1739774163691
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Shape",
+                            "ap1ID": 1739774127060,
+                            "ap2ID": "a913a11e-8a36-4668-926f-e6c9f535cd96"
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -2980,12 +3038,6 @@
                             "ap2Name": "geometry",
                             "ap1ID": 1739774144339,
                             "ap2ID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap1ID": 1739774145131,
-                            "ap2ID": 1739774127196
                         },
                         {
                             "ap1Name": "geometry",
@@ -3036,12 +3088,6 @@
                             "ap2ID": 1739774163691
                         },
                         {
-                            "ap1Name": "geometry or number",
-                            "ap2Name": "Shape 12",
-                            "ap1ID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
-                            "ap2ID": 1739774145131
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap1ID": "f683e790-1410-404f-a46b-25ba9749615b",
@@ -3061,20 +3107,13 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Shape",
+                            "ap2Name": "number or geometry",
                             "ap1ID": "57943c77-cde2-402d-8924-763a96822431",
-                            "ap2ID": "a913a11e-8a36-4668-926f-e6c9f535cd96"
+                            "ap2ID": 1739774127196
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": [
-                        {
-                            "BOMitemName": "1/4-20 T-Nut",
-                            "numberNeeded": 2,
-                            "costUSD": 1.02,
-                            "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
-                        }
-                    ]
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Assembly",
@@ -3370,7 +3409,13 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1739990461026,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1739990613540,
+                                            "currentEquation": null
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -3428,6 +3473,11 @@
                                     "uniqueID": 1739990473335,
                                     "ioValues": [
                                         {
+                                            "name": "geometry",
+                                            "ioValue": 1739990482327,
+                                            "currentEquation": null
+                                        },
+                                        {
                                             "name": "height",
                                             "ioValue": 12,
                                             "currentEquation": null
@@ -3461,7 +3511,13 @@
                                     "x": 0.5026455026455027,
                                     "y": 0.4776536312849162,
                                     "uniqueID": 1739990510761,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1739990473335,
+                                            "currentEquation": null
+                                        }
+                                    ],
                                     "description": "Tags geometry so that it can be extracted later.",
                                     "tags": [
                                         "Horizontal"
@@ -3631,6 +3687,11 @@
                                             "name": "Dist",
                                             "ioValue": 800,
                                             "currentEquation": null
+                                        },
+                                        {
+                                            "name": "Geometry",
+                                            "ioValue": 1739990727374,
+                                            "currentEquation": null
                                         }
                                     ],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3642,7 +3703,13 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": 1739990583338,
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": 1739990583525,
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -3651,7 +3718,23 @@
                                             "x": 0.5112433862433863,
                                             "y": 0.4345403899721449,
                                             "uniqueID": 1739990583525,
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "Shape",
+                                                    "ioValue": 1739990727374,
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Number",
+                                                    "ioValue": 5,
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Dist",
+                                                    "ioValue": 800,
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Defines a Replicad code block.",
                                             "codeVersion": 1,
                                             "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -3766,6 +3849,11 @@
                                     "uniqueID": 1739990613540,
                                     "ioValues": [
                                         {
+                                            "name": "geometry",
+                                            "ioValue": 1739990582881,
+                                            "currentEquation": null
+                                        },
+                                        {
                                             "name": "xDist",
                                             "ioValue": -1800,
                                             "currentEquation": null
@@ -3790,6 +3878,11 @@
                                     "y": 0.3231197771587744,
                                     "uniqueID": 1739990727374,
                                     "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1739990510761,
+                                            "currentEquation": null
+                                        },
                                         {
                                             "name": "x-axis degrees",
                                             "ioValue": 0,
@@ -3858,6 +3951,11 @@
                             "uniqueID": "565cdc93-d9b5-4588-917e-12bc15d40c08",
                             "ioValues": [
                                 {
+                                    "name": "geometry",
+                                    "ioValue": "b4672346-46a5-4886-926a-f6c714b5ea23",
+                                    "currentEquation": null
+                                },
+                                {
                                     "name": "xDist",
                                     "ioValue": 400,
                                     "currentEquation": null
@@ -3865,6 +3963,11 @@
                                 {
                                     "name": "yDist",
                                     "ioValue": 0,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -10.5,
                                     "currentEquation": null
                                 }
                             ],
@@ -5908,8 +6011,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.7367724867724867,
-                    "y": 0.25348189415041783,
+                    "x": 0.7400793650793651,
+                    "y": 0.2618384401114206,
                     "uniqueID": "e6c70707-8101-4c77-a37a-1b2a82886e65",
                     "ioValues": [
                         {
@@ -6257,8 +6360,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.816137566137566,
-                    "y": 0.14206128133704735,
+                    "x": 0.9279100529100529,
+                    "y": 0.8245125348189415,
                     "uniqueID": "98245218-57e5-4529-a068-4678ded84c04",
                     "ioValues": [
                         {
@@ -6346,6 +6449,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": "314e687d-2891-450d-927d-18577b1fd50a",
                     "ap2ID": "da7a8274-4de4-442e-9102-c6e03aec55ec"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "98245218-57e5-4529-a068-4678ded84c04",
+                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
                 }
             ],
             "fileTypeVersion": 1,
@@ -7164,7 +7273,13 @@
             "x": 0.34325396825396826,
             "y": 0.42896935933147634,
             "uniqueID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
+                    "currentEquation": null
+                }
+            ],
             "description": "Extracts geometry containing the specified tag.",
             "tag": "Ring Wood",
             "tagIndex": 0
