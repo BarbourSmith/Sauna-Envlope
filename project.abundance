@@ -7200,7 +7200,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7347883597883599,
+                    "x": 0.7380952380952381,
                     "y": 0.233983286908078,
                     "uniqueID": "c52c4d97-f9f2-4d9c-86e0-b89da99f4b66",
                     "ioValues": [
@@ -7218,8 +7218,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.8379629629629629,
-                    "y": 0.34540389972144847,
+                    "x": 0.8478835978835979,
+                    "y": 0.25348189415041783,
                     "uniqueID": "55d17a6f-2476-4572-a768-b5541cbb2bb8",
                     "ioValues": [
                         {
@@ -7244,7 +7244,242 @@
                         }
                     ],
                     "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                    "placements": []
+                    "placements": [
+                        [
+                            {
+                                "id": 0,
+                                "rotate": -35,
+                                "translate": {
+                                    "x": -1000,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 1,
+                                "rotate": -105,
+                                "translate": {
+                                    "x": -900,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 999
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 999
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "rotate": 103,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 999
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 11,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 12,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 13,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 14,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 15,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 16,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 17,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 18,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 19,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 20,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 21,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 22,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 23,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 24,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 25,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 26,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 27,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            {
+                                "id": 28,
+                                "rotate": 0,
+                                "translate": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        ]
+                    ]
                 }
             ],
             "allConnectors": [
@@ -8167,13 +8402,7 @@
             "x": 0.39616402116402116,
             "y": 0.36211699164345407,
             "uniqueID": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Extracts geometry containing the specified tag.",
             "tag": "Ring Wood",
             "tagIndex": 0
