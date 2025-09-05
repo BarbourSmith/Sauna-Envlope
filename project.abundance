@@ -188,6 +188,11 @@
             "uniqueID": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a",
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d",
+                    "currentEquation": null
+                },
+                {
                     "name": "xDist",
                     "ioValue": 200,
                     "currentEquation": null
@@ -214,11 +219,11 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": null
+                    "ioValue": "6d1eb914-c97f-45f1-9fe0-d0c95fdce69d"
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": null
+                    "ioValue": "28ad94e8-1aa9-4d1a-9ca4-21bc1d3f608a"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -230,6 +235,11 @@
             "y": 0.34540389972144847,
             "uniqueID": "06560358-425a-4db0-8648-3a011b132469",
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "4de84f7b-812c-4d86-906b-69c25fca823b",
+                    "currentEquation": null
+                },
                 {
                     "name": "Sheet Width",
                     "ioValue": 1219,
@@ -1885,7 +1895,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "98245218-57e5-4529-a068-4678ded84c04",
+                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
                             "currentEquation": null
                         }
                     ],
@@ -2622,6 +2632,351 @@
                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                     "partName": "Last Ring",
                     "sortDirection": "Left"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Two Rings",
+                    "x": 0.6262083780880774,
+                    "y": 0.39275766016713093,
+                    "uniqueID": "fc235172-c3e3-4264-89c4-92efc0113204",
+                    "ioValues": [
+                        {
+                            "name": "input",
+                            "ioValue": "e6c70707-8101-4c77-a37a-1b2a82886e65",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "b41eb25b-689a-479e-a601-e43f82681ef7",
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "input",
+                            "x": 0.029699999999999997,
+                            "y": 0.5181058495821727,
+                            "uniqueID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.2427248677248677,
+                            "y": 0.21727019498607245,
+                            "uniqueID": "f8baf057-d284-4b75-b535-b6abb6961e0a",
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 100,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0,
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.4021164021164021,
+                            "y": 0.43732590529247906,
+                            "uniqueID": "a2539f8d-e827-4690-bfe1-db08fb520387",
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": null
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": null
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "CutLayout",
+                            "name": "Cut Layout",
+                            "x": 0.5403439153439153,
+                            "y": 0.2785515320334262,
+                            "uniqueID": "bf46b7de-333f-4ec3-8043-11dd6571122d",
+                            "ioValues": [
+                                {
+                                    "name": "Sheet Width",
+                                    "ioValue": 2438,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "Sheet Height",
+                                    "ioValue": 1219,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "Part Padding",
+                                    "ioValue": 10,
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                            "placements": [
+                                [
+                                    {
+                                        "id": 0,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 1,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 4,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 5,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 6,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 7,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 8,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 9,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 10,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 11,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 12,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 13,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 14,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 15,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 16,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 17,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 18,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 19,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 20,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    },
+                                    {
+                                        "id": 21,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 0,
+                                            "y": 999
+                                        }
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.7513227513227513,
+                            "y": 0.8022284122562675,
+                            "uniqueID": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 2438.4,
+                                    "currentEquation": null
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 1219.1999999999998,
+                                    "currentEquation": null
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap1ID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
+                            "ap2ID": "f8baf057-d284-4b75-b535-b6abb6961e0a"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Shape 2",
+                            "ap1ID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
+                            "ap2ID": "a2539f8d-e827-4690-bfe1-db08fb520387"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape 1",
+                            "ap1ID": "f8baf057-d284-4b75-b535-b6abb6961e0a",
+                            "ap2ID": "a2539f8d-e827-4690-bfe1-db08fb520387"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap1ID": "a2539f8d-e827-4690-bfe1-db08fb520387",
+                            "ap2ID": "bf46b7de-333f-4ec3-8043-11dd6571122d"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap1ID": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
+                            "ap2ID": "b41eb25b-689a-479e-a601-e43f82681ef7"
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
@@ -8462,361 +8817,6 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Two Rings",
-                    "x": 0.623015873015873,
-                    "y": 0.520891364902507,
-                    "uniqueID": "fc235172-c3e3-4264-89c4-92efc0113204",
-                    "ioValues": [
-                        {
-                            "name": "input",
-                            "ioValue": "e6c70707-8101-4c77-a37a-1b2a82886e65",
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.98,
-                            "y": 0.5,
-                            "uniqueID": "b41eb25b-689a-479e-a601-e43f82681ef7",
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Connect geometry here to make it available in the next level up. "
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "input",
-                            "x": 0.029699999999999997,
-                            "y": 0.5181058495821727,
-                            "uniqueID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
-                            "ioValues": [],
-                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
-                            "type": "geometry"
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.2427248677248677,
-                            "y": 0.21727019498607245,
-                            "uniqueID": "f8baf057-d284-4b75-b535-b6abb6961e0a",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "e6c70707-8101-4c77-a37a-1b2a82886e65",
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 100,
-                                    "currentEquation": "100"
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.4021164021164021,
-                            "y": 0.43732590529247906,
-                            "uniqueID": "a2539f8d-e827-4690-bfe1-db08fb520387",
-                            "ioValues": [
-                                {
-                                    "name": "Shape 1",
-                                    "ioValue": "f8baf057-d284-4b75-b535-b6abb6961e0a"
-                                },
-                                {
-                                    "name": "Shape 2",
-                                    "ioValue": "e6c70707-8101-4c77-a37a-1b2a82886e65"
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                        },
-                        {
-                            "atomType": "CutLayout",
-                            "name": "Cut Layout",
-                            "x": 0.5403439153439153,
-                            "y": 0.2785515320334262,
-                            "uniqueID": "bf46b7de-333f-4ec3-8043-11dd6571122d",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "a2539f8d-e827-4690-bfe1-db08fb520387",
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Sheet Width",
-                                    "ioValue": 2438,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Sheet Height",
-                                    "ioValue": 1219,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Part Padding",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                            "placements": [
-                                [
-                                    {
-                                        "id": 0,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 1,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 2,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 3,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 4,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 5,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 6,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 7,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 8,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 9,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 10,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 11,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 12,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 13,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 14,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 15,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 16,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 17,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 18,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 19,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 20,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    },
-                                    {
-                                        "id": 21,
-                                        "rotate": 0,
-                                        "translate": {
-                                            "x": 0,
-                                            "y": 999
-                                        }
-                                    }
-                                ]
-                            ]
-                        },
-                        {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.7513227513227513,
-                            "y": 0.8022284122562675,
-                            "uniqueID": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 2438.4,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 1219.1999999999998,
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Creates a new rectangle."
-                        }
-                    ],
-                    "allConnectors": [
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "geometry",
-                            "ap1ID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
-                            "ap2ID": "f8baf057-d284-4b75-b535-b6abb6961e0a"
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "Shape 2",
-                            "ap1ID": "f52ec2f8-99f1-467f-b6eb-9699c84d6f2d",
-                            "ap2ID": "a2539f8d-e827-4690-bfe1-db08fb520387"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Shape 1",
-                            "ap1ID": "f8baf057-d284-4b75-b535-b6abb6961e0a",
-                            "ap2ID": "a2539f8d-e827-4690-bfe1-db08fb520387"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap1ID": "a2539f8d-e827-4690-bfe1-db08fb520387",
-                            "ap2ID": "bf46b7de-333f-4ec3-8043-11dd6571122d"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap1ID": "a20bfd73-c54c-4bf1-8a74-6935280390f0",
-                            "ap2ID": "b41eb25b-689a-479e-a601-e43f82681ef7"
-                        }
-                    ],
-                    "fileTypeVersion": 1,
-                    "compiledBom": []
                 }
             ],
             "allConnectors": [
@@ -8857,6 +8857,12 @@
                     "ap2ID": "e6c70707-8101-4c77-a37a-1b2a82886e65"
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
+                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
+                },
+                {
                     "ap1Name": "output",
                     "ap2Name": "Shape 1",
                     "ap1ID": "e6c70707-8101-4c77-a37a-1b2a82886e65",
@@ -8879,12 +8885,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": "314e687d-2891-450d-927d-18577b1fd50a",
                     "ap2ID": "da7a8274-4de4-442e-9102-c6e03aec55ec"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "98245218-57e5-4529-a068-4678ded84c04",
-                    "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
                 },
                 {
                     "ap1Name": "geometry",
@@ -8931,6 +8931,48 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.807733619763695,
+            "y": 0.46239554317548753,
+            "uniqueID": "6861021c-4034-4f83-98c6-b5512d3d3253",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "06560358-425a-4db0-8648-3a011b132469",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 0.25,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 2000,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Sauna-Envlope",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "Sauna-Envlope",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -8987,6 +9029,12 @@
             "ap2Name": "geometry",
             "ap1ID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ap2ID": "06560358-425a-4db0-8648-3a011b132469"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "06560358-425a-4db0-8648-3a011b132469",
+            "ap2ID": "6861021c-4034-4f83-98c6-b5512d3d3253"
         },
         {
             "ap1Name": "geometry",
