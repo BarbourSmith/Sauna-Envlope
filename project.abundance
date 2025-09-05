@@ -213,8 +213,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5291005291005292,
-            "y": 0.7325905292479109,
+            "x": 0.5238095238095238,
+            "y": 0.7214484679665739,
             "uniqueID": "4de84f7b-812c-4d86-906b-69c25fca823b",
             "ioValues": [
                 {
@@ -231,8 +231,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6620370370370371,
-            "y": 0.34540389972144847,
+            "x": 0.666005291005291,
+            "y": 0.37604456824512533,
             "uniqueID": "06560358-425a-4db0-8648-3a011b132469",
             "ioValues": [
                 {
@@ -1868,8 +1868,8 @@
         {
             "atomType": "Molecule",
             "name": "Split Apart",
-            "x": 0.3644179894179894,
-            "y": 0.871866295264624,
+            "x": 0.36177248677248675,
+            "y": 0.8941504178272981,
             "uniqueID": "b7f7ce1d-09db-481a-85ea-1a6d6fa21899",
             "ioValues": [
                 {
@@ -1924,16 +1924,16 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7132116004296456,
-                    "y": 0.5571030640668524,
+                    "x": 0.6845238095238095,
+                    "y": 0.520891364902507,
                     "uniqueID": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7"
+                            "ioValue": "5a141fc7-bc41-4025-9744-3eef6cdd6dd5"
                         },
                         {
-                            "name": "Shape 3",
+                            "name": "Shape 4",
                             "ioValue": "6e5151c3-21b6-4b33-a841-b6fd0c505af5"
                         }
                     ],
@@ -8680,8 +8680,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.37056928034371645,
-                    "y": 0.5431754874651811,
+                    "x": 0.3895502645502646,
+                    "y": 0.4874651810584958,
                     "uniqueID": "5a141fc7-bc41-4025-9744-3eef6cdd6dd5",
                     "ioValues": [
                         {
@@ -8691,8 +8691,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 1371.6,
-                            "currentEquation": "2743.2/2"
+                            "ioValue": 1361.6,
+                            "currentEquation": "(2743.2/2)-10"
                         },
                         {
                             "name": "yDist",
@@ -8706,6 +8706,23 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.7956349206349206,
+                    "y": 0.28690807799442897,
+                    "uniqueID": "805710f8-7dff-4551-950c-dd566a4ec418",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Extracts geometry containing the specified tag.",
+                    "tag": "Ring Wood",
+                    "tagIndex": 0
                 }
             ],
             "allConnectors": [
@@ -8746,6 +8763,12 @@
                     "ap2ID": "409a2508-217c-43b6-a4d4-c31533884b69"
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590",
+                    "ap2ID": "805710f8-7dff-4551-950c-dd566a4ec418"
+                },
+                {
                     "ap1Name": "output",
                     "ap2Name": "Shape 1",
                     "ap1ID": "e6c70707-8101-4c77-a37a-1b2a82886e65",
@@ -8783,21 +8806,9 @@
                 },
                 {
                     "ap1Name": "geometry or number",
-                    "ap2Name": "Shape 1",
-                    "ap1ID": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7",
-                    "ap2ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
-                },
-                {
-                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
                     "ap1ID": "1aa1ba37-c26c-45d3-9d3c-44992d4975e7",
                     "ap2ID": "5a141fc7-bc41-4025-9744-3eef6cdd6dd5"
-                },
-                {
-                    "ap1Name": "geometry or number",
-                    "ap2Name": "Shape 3",
-                    "ap1ID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
-                    "ap2ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
                 },
                 {
                     "ap1Name": "geometry or number",
@@ -8810,6 +8821,18 @@
                     "ap2Name": "geometry1",
                     "ap1ID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
                     "ap2ID": "314e687d-2891-450d-927d-18577b1fd50a"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "Shape 4",
+                    "ap1ID": "6e5151c3-21b6-4b33-a841-b6fd0c505af5",
+                    "ap2ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap1ID": "5a141fc7-bc41-4025-9744-3eef6cdd6dd5",
+                    "ap2ID": "a857b617-d3fb-4d63-b3df-0b236e6e6590"
                 }
             ],
             "fileTypeVersion": 1,
