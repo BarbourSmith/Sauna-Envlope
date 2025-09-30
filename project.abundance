@@ -17130,8 +17130,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6197089947089947,
-                            "y": 0.3593314763231198,
+                            "x": 0.6164021164021164,
+                            "y": 0.3537604456824513,
                             "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                             "ioValues": [
                                 {
@@ -17165,8 +17165,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.4007936507936508,
-                            "y": 0.6239554317548747,
+                            "x": 0.39814814814814814,
+                            "y": 0.5431754874651811,
                             "uniqueID": "a2e4f120-23de-42a9-a10b-f6fc25f91c24",
                             "ioValues": [
                                 {
@@ -19736,6 +19736,20 @@
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.10582010582010583,
+                            "y": 0.4874651810584958,
+                            "uniqueID": "9191e3a9-96bc-4c87-9f95-1b372f2bfa77",
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10,
+                                    "currentEquation": null
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
