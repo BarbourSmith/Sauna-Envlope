@@ -2242,7 +2242,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2512-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2956-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2268,7 +2268,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2513-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2957-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2294,7 +2294,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2514-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2958-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2320,7 +2320,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2515-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2959-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2346,7 +2346,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2516-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2960-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2443,11 +2443,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2517-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-2961-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-2962-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -2467,10 +2516,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2518-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-2963-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -2528,7 +2581,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2519-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2964-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2554,7 +2607,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2520-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2965-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2580,7 +2633,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2521-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2966-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2606,7 +2659,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2522-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2967-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2632,7 +2685,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2523-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2968-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2761,7 +2814,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2524-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2969-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2787,7 +2840,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2525-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2970-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2813,7 +2866,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2526-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2971-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2839,7 +2892,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2527-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2972-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2865,7 +2918,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2528-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2973-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -2962,11 +3015,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2529-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-2974-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-2975-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -2986,10 +3088,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2530-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-2976-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -3047,7 +3153,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2531-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2977-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3073,7 +3179,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2532-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2978-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3099,7 +3205,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2533-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2979-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3125,7 +3231,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2534-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2980-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3151,7 +3257,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2535-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2981-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3280,7 +3386,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2536-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2982-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3306,7 +3412,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2537-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2983-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3332,7 +3438,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2538-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2984-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3358,7 +3464,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2539-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2985-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3384,7 +3490,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2540-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2986-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3481,11 +3587,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2541-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-2987-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-2988-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -3505,10 +3660,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2542-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-2989-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -3566,7 +3725,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2543-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2990-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3592,7 +3751,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2544-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2991-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3618,7 +3777,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2545-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2992-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3644,7 +3803,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2546-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2993-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3670,7 +3829,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2547-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2994-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3799,7 +3958,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2548-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2995-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3825,7 +3984,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2549-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2996-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3851,7 +4010,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2550-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2997-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3877,7 +4036,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2551-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2998-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -3903,7 +4062,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2552-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-2999-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4000,11 +4159,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2553-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-3000-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-3001-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -4024,10 +4232,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2554-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-3002-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -4085,7 +4297,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2555-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3003-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4111,7 +4323,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2556-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3004-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4137,7 +4349,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2557-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3005-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4163,7 +4375,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2558-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3006-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4189,7 +4401,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2559-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3007-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4318,7 +4530,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2560-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3008-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4344,7 +4556,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2561-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3009-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4370,7 +4582,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2562-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3010-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4396,7 +4608,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2563-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3011-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4422,7 +4634,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2564-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3012-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4519,11 +4731,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2565-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-3013-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-3014-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -4543,10 +4804,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2566-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-3015-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -4604,7 +4869,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2567-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3016-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4630,7 +4895,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2568-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3017-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4656,7 +4921,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2569-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3018-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4682,7 +4947,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2570-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3019-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4708,7 +4973,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2571-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3020-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4837,7 +5102,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2572-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3021-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4863,7 +5128,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2573-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3022-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4889,7 +5154,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2574-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3023-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4915,7 +5180,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2575-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3024-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -4941,7 +5206,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2576-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3025-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5038,11 +5303,60 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "move-rotate-singular-2577-0-0-180-1720-0-0",
-                                                        "tags": [],
-                                                        "bom": [
-                                                            [],
-                                                            []
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "move-rotate-singular-3026-0-0-180-1720-0-0",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "move-rotate-singular-3027-0-0-180-1720-0-0",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
                                                         ],
                                                         "plane": {
                                                             "origin": [
@@ -5062,10 +5376,14 @@
                                                             ]
                                                         },
                                                         "color": "#aad7f2",
-                                                        "dimension": "3D"
+                                                        "tags": [],
+                                                        "bom": [
+                                                            [],
+                                                            []
+                                                        ]
                                                     },
                                                     {
-                                                        "geometry": "move-rotate-singular-2578-0-0-180-1720-0-0",
+                                                        "geometry": "move-rotate-singular-3028-0-0-180-1720-0-0",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -5123,7 +5441,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2579-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3029-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5149,7 +5467,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2580-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3030-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5175,7 +5493,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2581-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3031-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5201,7 +5519,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2582-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3032-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5227,7 +5545,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "move-rotate-singular-2583-0-0-180-1720-0-0",
+                                                                        "geometry": "move-rotate-singular-3033-0-0-180-1720-0-0",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5402,7 +5720,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2512",
+                                                                        "geometry": "singular-2956",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5428,7 +5746,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2513",
+                                                                        "geometry": "singular-2957",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5454,7 +5772,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2514",
+                                                                        "geometry": "singular-2958",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5480,7 +5798,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2515",
+                                                                        "geometry": "singular-2959",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5506,7 +5824,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2516",
+                                                                        "geometry": "singular-2960",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5606,7 +5924,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2517",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-2961",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-2962",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -5633,7 +6005,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2518",
+                                                        "geometry": "singular-2963",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -5692,7 +6064,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2519",
+                                                                        "geometry": "singular-2964",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5718,7 +6090,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2520",
+                                                                        "geometry": "singular-2965",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5744,7 +6116,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2521",
+                                                                        "geometry": "singular-2966",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5770,7 +6142,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2522",
+                                                                        "geometry": "singular-2967",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5796,7 +6168,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2523",
+                                                                        "geometry": "singular-2968",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5929,7 +6301,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2524",
+                                                                        "geometry": "singular-2969",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5955,7 +6327,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2525",
+                                                                        "geometry": "singular-2970",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -5981,7 +6353,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2526",
+                                                                        "geometry": "singular-2971",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6007,7 +6379,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2527",
+                                                                        "geometry": "singular-2972",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6033,7 +6405,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2528",
+                                                                        "geometry": "singular-2973",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6133,7 +6505,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2529",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-2974",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-2975",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -6160,7 +6586,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2530",
+                                                        "geometry": "singular-2976",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -6219,7 +6645,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2531",
+                                                                        "geometry": "singular-2977",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6245,7 +6671,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2532",
+                                                                        "geometry": "singular-2978",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6271,7 +6697,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2533",
+                                                                        "geometry": "singular-2979",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6297,7 +6723,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2534",
+                                                                        "geometry": "singular-2980",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6323,7 +6749,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2535",
+                                                                        "geometry": "singular-2981",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6456,7 +6882,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2536",
+                                                                        "geometry": "singular-2982",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6482,7 +6908,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2537",
+                                                                        "geometry": "singular-2983",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6508,7 +6934,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2538",
+                                                                        "geometry": "singular-2984",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6534,7 +6960,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2539",
+                                                                        "geometry": "singular-2985",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6560,7 +6986,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2540",
+                                                                        "geometry": "singular-2986",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6660,7 +7086,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2541",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-2987",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-2988",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -6687,7 +7167,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2542",
+                                                        "geometry": "singular-2989",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -6746,7 +7226,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2543",
+                                                                        "geometry": "singular-2990",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6772,7 +7252,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2544",
+                                                                        "geometry": "singular-2991",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6798,7 +7278,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2545",
+                                                                        "geometry": "singular-2992",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6824,7 +7304,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2546",
+                                                                        "geometry": "singular-2993",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6850,7 +7330,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2547",
+                                                                        "geometry": "singular-2994",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -6983,7 +7463,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2548",
+                                                                        "geometry": "singular-2995",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7009,7 +7489,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2549",
+                                                                        "geometry": "singular-2996",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7035,7 +7515,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2550",
+                                                                        "geometry": "singular-2997",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7061,7 +7541,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2551",
+                                                                        "geometry": "singular-2998",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7087,7 +7567,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2552",
+                                                                        "geometry": "singular-2999",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7187,7 +7667,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2553",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-3000",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-3001",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -7214,7 +7748,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2554",
+                                                        "geometry": "singular-3002",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -7273,7 +7807,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2555",
+                                                                        "geometry": "singular-3003",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7299,7 +7833,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2556",
+                                                                        "geometry": "singular-3004",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7325,7 +7859,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2557",
+                                                                        "geometry": "singular-3005",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7351,7 +7885,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2558",
+                                                                        "geometry": "singular-3006",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7377,7 +7911,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2559",
+                                                                        "geometry": "singular-3007",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7510,7 +8044,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2560",
+                                                                        "geometry": "singular-3008",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7536,7 +8070,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2561",
+                                                                        "geometry": "singular-3009",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7562,7 +8096,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2562",
+                                                                        "geometry": "singular-3010",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7588,7 +8122,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2563",
+                                                                        "geometry": "singular-3011",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7614,7 +8148,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2564",
+                                                                        "geometry": "singular-3012",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7714,7 +8248,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2565",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-3013",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-3014",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -7741,7 +8329,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2566",
+                                                        "geometry": "singular-3015",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -7800,7 +8388,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2567",
+                                                                        "geometry": "singular-3016",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7826,7 +8414,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2568",
+                                                                        "geometry": "singular-3017",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7852,7 +8440,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2569",
+                                                                        "geometry": "singular-3018",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7878,7 +8466,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2570",
+                                                                        "geometry": "singular-3019",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -7904,7 +8492,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2571",
+                                                                        "geometry": "singular-3020",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8037,7 +8625,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2572",
+                                                                        "geometry": "singular-3021",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8063,7 +8651,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2573",
+                                                                        "geometry": "singular-3022",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8089,7 +8677,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2574",
+                                                                        "geometry": "singular-3023",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8115,7 +8703,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2575",
+                                                                        "geometry": "singular-3024",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8141,7 +8729,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2576",
+                                                                        "geometry": "singular-3025",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8241,7 +8829,61 @@
                                             {
                                                 "geometry": [
                                                     {
-                                                        "geometry": "singular-2577",
+                                                        "geometry": [
+                                                            {
+                                                                "geometry": "singular-3026",
+                                                                "tags": [],
+                                                                "bom": [
+                                                                    [],
+                                                                    []
+                                                                ],
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#aad7f2",
+                                                                "dimension": "3D"
+                                                            },
+                                                            {
+                                                                "geometry": "singular-3027",
+                                                                "dimension": "3D",
+                                                                "plane": {
+                                                                    "origin": [
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "xDir": [
+                                                                        1,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "normal": [
+                                                                        0,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "color": "#D9544D",
+                                                                "tags": [
+                                                                    "keepout"
+                                                                ],
+                                                                "bom": []
+                                                            }
+                                                        ],
                                                         "tags": [],
                                                         "bom": [
                                                             [],
@@ -8268,7 +8910,7 @@
                                                         "dimension": "3D"
                                                     },
                                                     {
-                                                        "geometry": "singular-2578",
+                                                        "geometry": "singular-3028",
                                                         "tags": [],
                                                         "bom": [
                                                             []
@@ -8327,7 +8969,7 @@
                                                             {
                                                                 "geometry": [
                                                                     {
-                                                                        "geometry": "singular-2579",
+                                                                        "geometry": "singular-3029",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8353,7 +8995,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2580",
+                                                                        "geometry": "singular-3030",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8379,7 +9021,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2581",
+                                                                        "geometry": "singular-3031",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8405,7 +9047,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2582",
+                                                                        "geometry": "singular-3032",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8431,7 +9073,7 @@
                                                                         "dimension": "3D"
                                                                     },
                                                                     {
-                                                                        "geometry": "singular-2583",
+                                                                        "geometry": "singular-3033",
                                                                         "tags": [
                                                                             "aTag"
                                                                         ],
@@ -8634,11 +9276,60 @@
                         {
                             "name": "Shape 1",
                             "ioValue": {
-                                "geometry": "extrude-cut-fuse-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-160-10-0-55-0-50-circle-3.5-fuse-move-cut-circle-100-move-rectangle-500-500-0--200-0-0-0-0-move-rectangle-330-50--165-75-0-move-shrinkWrap-fuse-circle-12.5-move-rectangle-25-25-0-50-0-50--317.5-35-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
-                                "tags": [],
-                                "bom": [
-                                    [],
-                                    []
+                                "geometry": [
+                                    {
+                                        "geometry": "cut-extrude-cut-fuse-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-160-10-0-55-0-50-circle-3.5-fuse-move-cut-circle-100-move-rectangle-500-500-0--200-0-0-0-0-move-rectangle-330-50--165-75-0-move-shrinkWrap-fuse-circle-12.5-move-rectangle-25-25-0-50-0-50--317.5-35-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-move-rectangle-100-85--280-142-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                                        "tags": [],
+                                        "bom": [
+                                            [],
+                                            []
+                                        ],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "dimension": "3D"
+                                    },
+                                    {
+                                        "geometry": "extrude-move-rectangle-100-85--280-142-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                                        "dimension": "3D",
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#D9544D",
+                                        "tags": [
+                                            "keepout"
+                                        ],
+                                        "bom": []
+                                    }
                                 ],
                                 "plane": {
                                     "origin": [
@@ -8657,7 +9348,12 @@
                                         1
                                     ]
                                 },
+                                "tags": [],
                                 "color": "#aad7f2",
+                                "bom": [
+                                    [],
+                                    []
+                                ],
                                 "dimension": "3D"
                             }
                         },
@@ -8960,11 +9656,60 @@
                             "ioValue": {
                                 "geometry": [
                                     {
-                                        "geometry": "move-rotate-cut-extrude-cut-fuse-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-160-10-0-55-0-50-circle-3.5-fuse-move-cut-circle-100-move-rectangle-500-500-0--200-0-0-0-0-move-rectangle-330-50--165-75-0-move-shrinkWrap-fuse-circle-12.5-move-rectangle-25-25-0-50-0-50--317.5-35-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-move-extrude-cut-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-10-160-55-0-0-50-circle-3.5-fuse-cut-circle-100-move-rectangle-600-600--250-0-0-move-rectangle-50-350-75--175-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-0-0-18-90-0--90-0-350-360",
-                                        "tags": [],
-                                        "bom": [
-                                            [],
-                                            []
+                                        "geometry": [
+                                            {
+                                                "geometry": "move-rotate-cut-cut-extrude-cut-fuse-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-160-10-0-55-0-50-circle-3.5-fuse-move-cut-circle-100-move-rectangle-500-500-0--200-0-0-0-0-move-rectangle-330-50--165-75-0-move-shrinkWrap-fuse-circle-12.5-move-rectangle-25-25-0-50-0-50--317.5-35-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-move-rectangle-100-85--280-142-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-move-extrude-cut-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-10-160-55-0-0-50-circle-3.5-fuse-cut-circle-100-move-rectangle-600-600--250-0-0-move-rectangle-50-350-75--175-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-0-0-18-90-0--90-0-350-360",
+                                                "tags": [],
+                                                "bom": [
+                                                    [],
+                                                    []
+                                                ],
+                                                "plane": {
+                                                    "origin": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "xDir": [
+                                                        1,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "normal": [
+                                                        0,
+                                                        0,
+                                                        1
+                                                    ]
+                                                },
+                                                "color": "#aad7f2",
+                                                "dimension": "3D"
+                                            },
+                                            {
+                                                "geometry": "move-rotate-extrude-move-rectangle-100-85--280-142-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-90-0--90-0-350-360",
+                                                "dimension": "3D",
+                                                "plane": {
+                                                    "origin": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "xDir": [
+                                                        1,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "normal": [
+                                                        0,
+                                                        0,
+                                                        1
+                                                    ]
+                                                },
+                                                "color": "#D9544D",
+                                                "tags": [
+                                                    "keepout"
+                                                ],
+                                                "bom": []
+                                            }
                                         ],
                                         "plane": {
                                             "origin": [
@@ -8984,7 +9729,11 @@
                                             ]
                                         },
                                         "color": "#aad7f2",
-                                        "dimension": "3D"
+                                        "tags": [],
+                                        "bom": [
+                                            [],
+                                            []
+                                        ]
                                     },
                                     {
                                         "geometry": "move-rotate-move-extrude-cut-fuse-cut-shrinkWrap-fuse-circle-25-move-rectangle-10-160-55-0-0-50-circle-3.5-fuse-cut-circle-100-move-rectangle-600-600--250-0-0-move-rectangle-50-350-75--175-0-move-circle-3.5-55-55-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-0-0-18-90-0--90-0-350-360",
@@ -10261,8 +11010,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.8148148148148148,
-                            "y": 0.18384401114206128,
+                            "x": 0.8141534391534391,
+                            "y": 0.1894150417827298,
                             "uniqueID": "0d2b0542-94cf-47c4-9031-0aa375873ad4",
                             "ioValues": [
                                 {
@@ -10937,9 +11686,9 @@
                         },
                         {
                             "atomType": "Molecule",
-                            "name": "Molecule",
-                            "x": 0.8855820105820106,
-                            "y": 0.15598885793871867,
+                            "name": "Keep Out",
+                            "x": 0.919973544973545,
+                            "y": 0.18662952646239553,
                             "uniqueID": "5984b530-40c2-42c1-bd3c-06301ae78425",
                             "ioValues": [
                                 {
@@ -10970,8 +11719,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.4173280423280424,
-                                    "y": 0.33147632311977715,
+                                    "x": 0.7956349206349206,
+                                    "y": 0.37325905292479106,
                                     "uniqueID": "45f10591-aca7-4b25-bec1-aea32ddc5391",
                                     "ioValues": [
                                         {
@@ -11003,6 +11752,35 @@
                                                 "color": "#aad7f2",
                                                 "dimension": "3D"
                                             }
+                                        },
+                                        {
+                                            "name": "Shape 2",
+                                            "ioValue": {
+                                                "geometry": "extrude-move-rectangle-100-85--280-142-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                                                "dimension": "3D",
+                                                "plane": {
+                                                    "origin": [
+                                                        0,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "xDir": [
+                                                        1,
+                                                        0,
+                                                        0
+                                                    ],
+                                                    "normal": [
+                                                        0,
+                                                        0,
+                                                        1
+                                                    ]
+                                                },
+                                                "color": "#D9544D",
+                                                "tags": [
+                                                    "keepout"
+                                                ],
+                                                "bom": []
+                                            }
                                         }
                                     ]
                                 },
@@ -11028,8 +11806,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5165343915343915,
-                                    "y": 0.8272980501392758,
+                                    "x": 0.4933862433862434,
+                                    "y": 0.6573816155988859,
                                     "uniqueID": "1f74c55b-d0ad-404e-b984-ab5a5d03292d",
                                     "ioValues": [
                                         {
@@ -11039,8 +11817,8 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 65,
-                                            "currentEquation": "65"
+                                            "ioValue": 142,
+                                            "currentEquation": "142"
                                         },
                                         {
                                             "name": "zDist",
@@ -11052,13 +11830,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.6165343915343915,
-                                    "y": 0.8272980501392758,
+                                    "x": 0.5727513227513228,
+                                    "y": 0.8495821727019498,
                                     "uniqueID": "966e6897-676c-42f6-8da5-06a30f198f69",
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 10,
+                                            "ioValue": 18,
                                             "currentEquation": null
                                         }
                                     ]
@@ -11066,11 +11844,20 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
-                                    "x": 0.685978835978836,
+                                    "x": 0.029699999999999997,
                                     "y": 0.8022284122562675,
                                     "uniqueID": "b23900f3-8bcc-4d58-85c2-85cf83c3a46d",
                                     "ioValues": [],
                                     "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Color",
+                                    "name": "Color",
+                                    "x": 0.6600529100529101,
+                                    "y": 0.6657381615598886,
+                                    "uniqueID": "8d07e052-f7b4-4641-93af-61d39ad768cc",
+                                    "ioValues": [],
+                                    "selectedColorIndex": 23
                                 }
                             ],
                             "allConnectors": [
@@ -11097,6 +11884,24 @@
                                     "ap2Name": "geometry",
                                     "ap1ID": "1f74c55b-d0ad-404e-b984-ab5a5d03292d",
                                     "ap2ID": "966e6897-676c-42f6-8da5-06a30f198f69"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap1ID": "966e6897-676c-42f6-8da5-06a30f198f69",
+                                    "ap2ID": "8d07e052-f7b4-4641-93af-61d39ad768cc"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "height",
+                                    "ap1ID": "b23900f3-8bcc-4d58-85c2-85cf83c3a46d",
+                                    "ap2ID": "966e6897-676c-42f6-8da5-06a30f198f69"
+                                },
+                                {
+                                    "ap1Name": "color",
+                                    "ap2Name": "Shape 2",
+                                    "ap1ID": "8d07e052-f7b4-4641-93af-61d39ad768cc",
+                                    "ap2ID": "45f10591-aca7-4b25-bec1-aea32ddc5391"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -11115,12 +11920,6 @@
                             "ap2Name": "Shape 1",
                             "ap1ID": "32ea01e9-f86b-4765-8ceb-6c3f96eba781",
                             "ap2ID": "226d79de-f239-47ac-bcb6-29471a98869b"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap1ID": "0d2b0542-94cf-47c4-9031-0aa375873ad4",
-                            "ap2ID": "5bc9f8ea-446d-4012-a5f7-a5250f6ba265"
                         },
                         {
                             "ap1Name": "geometry",
@@ -11235,6 +12034,12 @@
                             "ap2Name": "geometry",
                             "ap1ID": "c0d917c3-0064-44e3-87eb-f3d8038699dc",
                             "ap2ID": "32104a49-a44f-4a7e-915b-dbef09aa714e"
+                        },
+                        {
+                            "ap1Name": "geometry or number",
+                            "ap2Name": "number or geometry",
+                            "ap1ID": "5984b530-40c2-42c1-bd3c-06301ae78425",
+                            "ap2ID": "5bc9f8ea-446d-4012-a5f7-a5250f6ba265"
                         }
                     ],
                     "fileTypeVersion": 1,
