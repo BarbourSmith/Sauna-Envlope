@@ -1890,7 +1890,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-ac0df6d7c2102e00436121649d45cf658f684a2d0346a805fbf13998c0344076",
+                                    "geometry": "move-2f4b596d0631aafd1279ce14a679c98a1e51ee7cb09ea319040bf57ab0996037",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -1956,7 +1956,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -1964,8 +1966,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-c249e7d0d9f8ec56232d8c2b2c07ec93d3355f7defd7477d251b6f3fafc4731d",
-                                    "tags": [],
+                                    "geometry": "move-83a86bba5536f898586043b5b25f9e83d398fdda80f5faaed3633e5f61d22824",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-be5b25781ef5ecf1a647bca8a57dde54eae8c18cf0b90264ff74133629bb17b8",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -1991,7 +2071,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-9479ea04c121352ef04c316e38dc659172a14244a0075be5aff4297bee3b2ec4",
+                                    "geometry": "move-de0518a477bea2a9868563e1e1899db5d9b0c89302d25a7a615ee60f1ab5dfed",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -2042,8 +2122,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-38767535ed35e8157f3f8eb15041098dd13e86784d763a4f4cb18475398b6351",
-                                "tags": [],
+                                "geometry": "move-6216944bf3427508e6834569cd2742bcfcd936c5c7e42f11b8b0ef2e95311ccf",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -2092,80 +2174,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-19cca1fe842724a44dd399e20b515c5f16b4fc7155ffc5e4bc2544a93ee4ccfd",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -2196,7 +2204,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-88b9ca31f5ad6d68ef612f2e723797d7d5491e20c5e2ebedd485a190bc283d76",
+                        "geometry": "move-62eb0cea37a2ea65ae495ca665319fc1741b49426490959237eb30f8e2be76ca",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -2220,7 +2228,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-94f5d3facf823daa5fd9a5b68dea15058f19092b0c7c723fa7a9578e97f2137f",
+                        "geometry": "move-83d43b9fc95daef0a0f2c8088fc86b50abcb22115a4e0e02eee20119d816ef6d",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -2278,7 +2286,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-ed77c6815c4151f112c489ee900e2567123953156df308b02a57c8af2404856d",
+                                    "geometry": "move-0a1bcc584fe354c6312e64db8646b6c25f3ec584a1f05adedcee7d5a9bb68060",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -2344,7 +2352,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -2352,8 +2362,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-bc8d19bc30d67804695617fb439b2298d8111858926c4de840243ff31b1e9b06",
-                                    "tags": [],
+                                    "geometry": "move-1f87f12313474c3d301e68b91002c257eb2247f204c6e9c63720358700b89ff5",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-77c6722f5488f765ff6d2c22613ee3866e8c92593203245b09273493eaa3584e",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -2379,7 +2467,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-358aaebe1443cee2817dbd11049b4f40c14d06a38ce390ee8bab368f63381593",
+                                    "geometry": "move-cb6239898cab8412715041093107cd61cba21f86d539f34bd77b77b8e74060b8",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -2430,8 +2518,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-706b09c2324ffa520e56e08e01c67c04d71008a1934843b074cd7f014ee70047",
-                                "tags": [],
+                                "geometry": "move-01f9804968d79e629246efe99b4e202a3a00935ae505b98a89ff21e277309dd9",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -2480,80 +2570,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-7e21ac161e973679e23f2b48e518022268076cf3d2eb10d74686768618d86b46",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -2584,7 +2600,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-4a587cdefdca8c3b4150c31fe28053b7cbed403715d749b94e98136613a03f3b",
+                        "geometry": "move-f2fbf3db3b36daf087d695bffcf329d30b76352e16fcdf722ccb80b02d71f625",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -2608,7 +2624,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-3c3f681dbf8296beafdeb1b16c21210463e2848ca08d5dfcd83fb08186a47b96",
+                        "geometry": "move-f9a6512602d80c7dafb6c00b37c9377c56cab33ccf8fff8566609ecf153712df",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -2666,7 +2682,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-10026fee0a3044d9ca30260b52099ddbc4f9e745326291321507b0aa9411b0e6",
+                                    "geometry": "move-2780ebec792b0fb22a0c756238df3d7c6e14cd18c0610aea35a1bfd23e5a57b0",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -2732,7 +2748,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -2740,8 +2758,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-c0810f32b5dda2702c95cb3ed7de24d7f5adfd28be68e8ad20906951bc8e6343",
-                                    "tags": [],
+                                    "geometry": "move-8901decd6f4501236637d8c0b34ba38d07e769bfdea08a9605f147eb6350c87c",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-ec64d962fe60b5d7ee77e19f25336f273d816994730490ac3768bd4587be4db5",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -2767,7 +2863,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-94361c099d3524857d3e32034afe269050b010a82471a4144d38faafaa485c51",
+                                    "geometry": "move-7d9ebd6897b049ce67d0b1cfc762191067beb94d777e5f9f90f3a195f528061a",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -2818,8 +2914,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-d9acfee6f6b26127d476e05f2ca0e976eba1e1c0c4bd8c3a15e21778ba78c254",
-                                "tags": [],
+                                "geometry": "move-b7e9307f36b7243d0b7250eb5665d01b62e87afbdb70ac5e47d2567845ea8761",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -2868,80 +2966,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-df260df8759ba1891612d128cb9f7f0da74a8f36087c46497bd2fec9e83c079a",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -2972,7 +2996,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-3b10eea0a8e240b3c0c8fbbf4818ea9a9f135851cbae4fe6c86d0eeafd253d16",
+                        "geometry": "move-25a551f797faab317bb789970be5c1e4f1d404ca16848873b944f8039c5e2d17",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -2996,7 +3020,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-6378f288c41fa2e38d7de5e26b0b51889b3bebce6dba25715bf998b1de5533bc",
+                        "geometry": "move-775147cd1111cd9ffe5aa9c736150c85a78682f51897568504e2109ec2a49895",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -3054,7 +3078,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-1ef08edad5835c4e6e1f834e191fdb93928ce5e8c27aa52270aca72a0eb2bc6e",
+                                    "geometry": "move-8f95e82c35a69893ad40f2aab6db015105ffb938627922940499e054a50f5d9a",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -3120,7 +3144,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -3128,8 +3154,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-5f749c58a634b7168bed2640de737706d3c70dc2645d67aebc768b95a9dd4339",
-                                    "tags": [],
+                                    "geometry": "move-1619310210ce87f07a782f003afe7042db980d8f54b2bab494b27f78f9f9bb81",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-b7422f1afe8940eb009ad4a06be9251d35a29a8b7d3bae46e117650be45e36d6",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -3155,7 +3259,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-f7bdd635eb77d4d35b05e888e9654c05c1afbc9bdfd0a3b2b66c504bc78f88e0",
+                                    "geometry": "move-10c2aa2534fb1c495c130f2491e60ecd2a2e1b585e2a6870226d7e31aabe9d94",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -3206,8 +3310,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-0f8e5cbc7d3230a6e4be8b96d014e58a0c745aa5405b62ae8539d671614e8a3d",
-                                "tags": [],
+                                "geometry": "move-d392ab3028828f5d5342208c4ae7ccafb35787d7e75af0c7cef3a5b9e98d741d",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -3256,80 +3362,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-77e9f3c387261e400829ceca478113d76944094d66bfb08d416d9ed99f669247",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -3360,7 +3392,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-b980cfc6a6c2a1dfe741732db349efdf0e3a840d13e469c37320c5591d24c6ba",
+                        "geometry": "move-50a1e5c05acc693b3ce4fe19b44b2be330e172ebfb00353d3545591d2fff7344",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -3384,7 +3416,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-ade0178966d7c2b7f09418ecdb36b4b8241721a445989c58611f4a32715bfa34",
+                        "geometry": "move-10a84b043fbe98057608f8dce52579cf1ab2d3989be7d4a7811de022875681ef",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -3442,7 +3474,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-b7a42d4fcd8893fdd7b2b841743cf783f83dfa412511dcd88a77b06ad020ba28",
+                                    "geometry": "move-20db19407d89f3bfcdbd8fca19995365ec67b9fb4b0a91ca617c12c999dee6d7",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -3508,7 +3540,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -3516,8 +3550,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-2bd7282e30ed9957081345c3a21b75f5992a9ecfa598c39769f2bfa8ad5e9f65",
-                                    "tags": [],
+                                    "geometry": "move-d26c8bf644b70d7e2a01e2b09108d4784e0167e2d182c71722061fdf058c6408",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-854d3834afe47a976d064d8a5c2abc8244618b6d7d9fa3bf63198fd3f964d9fc",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -3543,7 +3655,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-e2bf253d657063632b376f3f46c1caf282cfe3b0aae05f8e67e6ad6a5075285f",
+                                    "geometry": "move-f3729b32672efc6cd1e9b2e4929a09baa4e58fc82532dd3a5bf830e3bef6528c",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -3594,8 +3706,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-ea58fd2bf5aed44f4bb89037f2e3e751a8ff84c02b505d91d8a94cc69d695922",
-                                "tags": [],
+                                "geometry": "move-235eed4e73185cc819258a1eaf19cbc5c0bb1913410b97d18099d825b07e98cb",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -3644,80 +3758,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-1d4c3227871cd0a56d921c807e8e7a393eac49bb1cecf1ed9f92a98b93f4c42c",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -3748,7 +3788,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-d4b38f987c27062dd5a6c7ea66e493b3c13f49b4420e5ed3364c75fb528ee791",
+                        "geometry": "move-26440a6d11d573076dc5b1b4c3a36082e54387be45ca74ad0b7831ae5e46da9b",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -3772,7 +3812,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-e5c1b34ab87b2bc959368e5462d9a2d2714ad3db165ee2da99c08954646a6ce9",
+                        "geometry": "move-9e1c7d91516be7556552ee0df01cff00e3c4603c25e5ae494b6494f2c24ba74a",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -3830,7 +3870,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-1c183804dac8975c028d1daa5506cd097c648d64cbe11073bcd3776bd4fa8f7c",
+                                    "geometry": "move-529ccc6fb7e5b7ea7936d9529b82302228fe09f2d85688208442beaa0e6e8e61",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -3896,7 +3936,9 @@
                               ]
                             },
                             "color": "#aad7f2",
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": []
                           },
                           {
@@ -3904,8 +3946,86 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "move-dc1ca0a082aacbfc40743d068d3e2d89f6fa8fb8bc4cea3b2d4166689557f56f",
-                                    "tags": [],
+                                    "geometry": "move-c50350c808cc658cd9f4f3e7806a94c18a1d395de7f4af84827522e5383e963c",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": []
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "move-90204dbbb21b6d7f04751dce7f6341b6bbb72d3092fa0dbae0b36e0d9d2bb6aa",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -3931,7 +4051,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "move-c0b0be1395f7d5790f98efcff558512d25016853c2fafd3ecbed6ec93ad08101",
+                                    "geometry": "move-d5b54ec72d4ad5fe8e101764acdeb49e75b763e3e15f7bedc78e356cfe9124eb",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -3982,8 +4102,10 @@
                                 ]
                               },
                               {
-                                "geometry": "move-a03939d3ea1f42568a0ab49090d7268c9c0240e0642c14a10708034e8bd6a406",
-                                "tags": [],
+                                "geometry": "move-9e445ccc71e32e7b08ed01347546c808144e15a88e2448f7c0033241e60883c6",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -4032,80 +4154,6 @@
                               [],
                               []
                             ]
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "move-200330046e6f6d8e6d06bad5f1617d3fcb2484bbe64f95a5c36c6175fda0807d",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [],
-                            "bom": []
                           }
                         ],
                         "plane": {
@@ -4136,7 +4184,7 @@
                         ]
                       },
                       {
-                        "geometry": "move-e538e118d4afe8d5edad115fb83311113a6f682afe494ffc2710c551b2cead4e",
+                        "geometry": "move-1e718619179a62024c7cfdef28e6fe83865f25434df2832f64af388ef0f32782",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -4160,7 +4208,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "move-8d4e81d9f55c290051c2634de39445cb4e1a0fd73822b3cb8cf308ac69a6af1b",
+                        "geometry": "move-2239a9ca2108d94629d240ef13ea9d9f93b2111a83abca1bf0c449650bf501db",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -4264,7 +4312,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-da05a76abb126e897ae6e7fba16e1859a5d79c76b4bc2c4c3b89faeefe6a0965",
+                                    "geometry": "singular-e9a054f3ebd55d852b012ca92479978d040d61c6a9419d66d6809799a9297bc6",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -4313,7 +4361,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -4340,8 +4390,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-83890d2cf0ebf0dbde33db73b0bfbb0598c75f7fbfa5fa8e73a79953397bb908",
-                                    "tags": [],
+                                    "geometry": "singular-ab6d6a4850c9f68cab246cc47929c5eaf48184acab65fbdc05f02aae6b62aeb4",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-f2e835dd4d5e01b2751227551e8c619d220e2093b0f3e8ab02db55e8fede5a40",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -4367,7 +4497,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-d6d6dfaa75ccdcf8f78230b1823245b1cdfe185dd0cfe785d6a4ed7821d32a56",
+                                    "geometry": "singular-b3329d01d35abafd462d42f41653705e297feda8f84005650a9fbc2112cbe42a",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -4419,8 +4549,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-ee07a7a0c971fe5da434c6e6b7d12f0dd6c506f8224c3f169db7e0c988dc419e",
-                                "tags": [],
+                                "geometry": "singular-3e9f24eb4558d610e39528316a36928e9aa752c836be813ba400177a879deffb",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -4451,82 +4583,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-b8b8f879082817d4f7d0cf28ac50336aca056b3e7e2153b857d130886be4758a",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -4577,7 +4633,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-05080dc082c6df88129efbbe3f2c5a354e5348c963564f889914d0252f48b17d",
+                        "geometry": "singular-3b89bfc53973749adda62c003e61b852ea5852b6b223ae5952674bc781d83ccc",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -4601,7 +4657,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-db41c6194846e89df26b631d1d660fac9d6509b13a3ab080c9ea39175924bc44",
+                        "geometry": "singular-336ce50386e17a7e7d101b1bda3fe49549efc8c60b2e0df85dc18da0b1bfdec3",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -4660,7 +4716,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-c6dcb442b19ede93608de74770c730e6d19be562f3b0ac9802c27bebf7e5d848",
+                                    "geometry": "singular-abf8509e9b05a89e863be58b28b8333c8c1a3189a03ae4e5f287373c7e1de2a8",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -4709,7 +4765,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -4736,8 +4794,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-40d9afd03b3d591c7ae198b6e1f985bd67bd98442def97adb1ad2f6756bfddac",
-                                    "tags": [],
+                                    "geometry": "singular-754c6b34fcad86c7b0285abf07d9251605e1d3f685ba10994fc7f07b3f01ea78",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-32256056f06b830971ddee022dae220b6407df3ea016c0356b9f08ec8383faba",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -4763,7 +4901,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-d45d39f3996478609d46956d9f1c197532d82e79bab71d743148427b01e13cee",
+                                    "geometry": "singular-964fcfef0ebb258bed40693ecf6fb80cbb2891b772c408eef77b4091474a205b",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -4815,8 +4953,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-cb2128fa588a6c0496c6d771d91f263af38b9f56dfd7efdca2f2b424f0e0459b",
-                                "tags": [],
+                                "geometry": "singular-fbdccd9ddeef57a56e28ecb18153cb11263cba1ccd791f9c7e1acda2d467ef00",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -4847,82 +4987,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-cbacec60bc382722c359f28b74c8436870255a19be94817942083ce6d3658fab",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -4973,7 +5037,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-614fcb0d009bbde79e77f822d20745611e7bdc8e9226a0c5591fbe0c292f9b51",
+                        "geometry": "singular-34cbafa33f433ebbdaaea5ee97b42f9f108a7c769c7db4b9da023cd8a8ecfeec",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -4997,7 +5061,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-3dccad941301c4cc36db5630bfabb902f14e7d2cef55f0d81f299b723cee7048",
+                        "geometry": "singular-50914ddbb4f0539918666001e10a902f7c80af2a894402c584def462bc62f891",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -5056,7 +5120,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-0d9662163bebee71b60d9833aed9040d96d57dd003e57dc9e2e4a3ebf7912ba5",
+                                    "geometry": "singular-72075ba644e697e9e5d8e28fcf7c02496dbe22e61ec77f19bed8e9b04ed2343f",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -5105,7 +5169,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -5132,8 +5198,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-dbd59852f46207af2d5daa2e1b546a20b719f1648b90cf70d7756aceed84967f",
-                                    "tags": [],
+                                    "geometry": "singular-97f2b7e2181e459aad911ce613c7e5d0093cc6b3a1b2339936b382e472e91e03",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-0bc302bb5430035c6b3d424c93d5e4712ca29b9272357ee16b3a4d50138bc5e8",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -5159,7 +5305,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-ea8833e4cf9c0c9ac02998ebaf4fed7e76b926e1edfdeacf8b16f53fa05e055d",
+                                    "geometry": "singular-b98275bd6ab1d3ca3d890aac3f242ddd27925ad41bc049f18a9c572bed96ddd9",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -5211,8 +5357,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-e7d570d84d4fb8ba0dc6e5f7ff328a76d65e40acde90f70b9c5492791e4de4f7",
-                                "tags": [],
+                                "geometry": "singular-4cb05335e2f3aca90765c0739d365f8ccc521e101258e8cd3be1c1d23940da1e",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -5243,82 +5391,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-12155a29e924e4b8778629204eb36c0274bba87c3aedc37261309d614573a80c",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -5369,7 +5441,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-127309c873b897c7c23aeed40ea1a22676f3ef006fa5b853b03db31107e2f1a2",
+                        "geometry": "singular-f0eb71e4e072963029afeec77aa0752201d0652a9bba2d782ed8d9db723db2fb",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -5393,7 +5465,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-d6d14dfdb7fd0a4c112e15b225516759ae3c31a1251f30ada266b712c9c06567",
+                        "geometry": "singular-c76ec0c76c525d7f8853d8fabd759bd79df41a35bdda925559e0402609d08e5d",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -5452,7 +5524,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-f62f005a00f3d5d65e96a9329998cf84f736688039e0a9c5fb322f5b8db1feef",
+                                    "geometry": "singular-1a57dd8b95948b63ec984bb722eb5a1166d694ef64e6132d76e71a6bf3a415aa",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -5501,7 +5573,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -5528,8 +5602,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-02802f66bfe7715dc7fa103e3a07f4f9f948544b8b78d3db5e9acb18285b892b",
-                                    "tags": [],
+                                    "geometry": "singular-42d19b5722a4a2c00d00cae516c7eaecdfd23cb4ff4f9c4dfb3e64146073fb30",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-62aef6d595ae04d3fc666f916886cb4d04b43dc6e4ff9a7c6c58e0dea72462da",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -5555,7 +5709,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-dc65bd84db846eebae67e1ba6bb0e4a1cc7e6725657cd93d087f47cb0219782e",
+                                    "geometry": "singular-15ba05d9433949d6c14d48939111ee268c17a5d3c2524a3c6bcb74aad333c2fc",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -5607,8 +5761,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-87ee755851bc6b1de23b6f52ac16e55922b643f723e8a17e2f18c97b4f37823d",
-                                "tags": [],
+                                "geometry": "singular-8a4960e61c313fd01a4d1b1a7923cfd8dc7e17f11fd3664d3450b244380fc783",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -5639,82 +5795,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-d41a7d8e5d5989378e70d4af6667c21ec2a97e545cd925a0c12e311f6372bd1c",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -5765,7 +5845,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-37b2bc0db85b37bd0134e908c2f9ff3176ea26ea98181340e1ff36a8d984a9e5",
+                        "geometry": "singular-ec58ea6aa39565f34bcc3dc48a28605211a531a081c73574945d0bca7827bdd3",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -5789,7 +5869,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-ea38832e303c9a40cfe8b6160fd949f7317febe9633fc7c8a1153aa5e7c2512e",
+                        "geometry": "singular-b3cb3a7a767405b64925c73e6adba57953b55fcda15ff5ccf473c47c2c878bcb",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -5848,7 +5928,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-b344603b272cddd6307249d2d9c2fd5e7e93f8fa2a622d38fde392402c235a5a",
+                                    "geometry": "singular-a58665938c79642b7ed1ff7a324434fd1ec2d83d3611ca012c85853cbf273bdf",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -5897,7 +5977,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -5924,8 +6006,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-ed6be4acfc5393a4be9966c7fc2ae828325d39c58759ea6a55d3dcea6d03b9f8",
-                                    "tags": [],
+                                    "geometry": "singular-086486ea4bcbc59d0ae41cc9e12062e9e6a6513047cc32bc52a162df3da77574",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-8275cfde3309ea8322e1003eeaa863681ab785733349964b77ab1e6f36105d17",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -5951,7 +6113,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-38fc41bd815d669d946f6f9ac1658121c24412a63b732541da674ea79a30c937",
+                                    "geometry": "singular-9b71e5efb06b4e0d1cc8107f35783cd12eb24c8d29585d63e53d99a6f6683369",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -6003,8 +6165,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-201add142419aaa1ff8bf4b25772b7af870d06753a642c57a49640cd9835f6d4",
-                                "tags": [],
+                                "geometry": "singular-80458bf3cedfb3fbba166b79e6e0fb7d9efdcf99ab78b0f3963245aa98c0d8dd",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -6035,82 +6199,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-a0e7ee310005c50a63df935df6caf5b005a45efb89c1e9d9ad6f4883838f6dcc",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -6161,7 +6249,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-d15b88858777c3ec8e0d1e5edff603a5d3f24f1c49421aaefd5e678f439eeac7",
+                        "geometry": "singular-8e73fd928a5dcc1f42d08bf0be14d75e8ba0735bdd725f0db4b93be95c097119",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -6185,7 +6273,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-5e2883c1a7025a8a6630f05b021ae54426574364d259ebf6dc50620b861834cd",
+                        "geometry": "singular-26bb5b89567a53e6f9cbd5c6d03afb4386da686eda408eef90c773a8656edf64",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -6244,7 +6332,7 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-7fafea8bb70a25803404cc98432200b0dff4d821bef5e88ae49001858018a351",
+                                    "geometry": "singular-548d7ef8fb193d0fb390ce3caa97efbdbfe93bb87ecba36ed86a08e8f12fa756",
                                     "tags": [
                                       "Ring Wood"
                                     ],
@@ -6293,7 +6381,9 @@
                                 "dimension": "3D"
                               }
                             ],
-                            "tags": [],
+                            "tags": [
+                              "Brace 1"
+                            ],
                             "bom": [],
                             "plane": {
                               "origin": [
@@ -6320,8 +6410,88 @@
                               {
                                 "geometry": [
                                   {
-                                    "geometry": "singular-e68e933f4cf65ed7a360b01871a92b0afcd2a8b70eda284c188fdeb43be30b91",
-                                    "tags": [],
+                                    "geometry": "singular-759237602786c088427662fb9527e17913c9c4c0762b235ca0915bd9957b0de3",
+                                    "tags": [
+                                      "Ring Wood"
+                                    ],
+                                    "color": "#aad7f2",
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "bom": [],
+                                    "dimension": "3D"
+                                  }
+                                ],
+                                "tags": [],
+                                "bom": [],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [
+                              "Brace 2"
+                            ],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "dimension": "3D"
+                          },
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": "singular-ff9d5c105dc2dda72165f75f28e08d15d6b1d519e462c66a591220698d26f87c",
+                                    "tags": [
+                                      "Horizontal"
+                                    ],
                                     "bom": [
                                       [],
                                       []
@@ -6347,7 +6517,7 @@
                                     "dimension": "3D"
                                   },
                                   {
-                                    "geometry": "singular-413d6016202e8b924f178cca838035da5aee78dbcc7c775553d059d8369b3ed1",
+                                    "geometry": "singular-d21de02267a2b119abc2467bc17a132186f526265e0c2945a69caef9d374835e",
                                     "dimension": "3D",
                                     "plane": {
                                       "origin": [
@@ -6399,8 +6569,10 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "singular-16e364aae0844085a8ab7055da213fe0ace6f8a4c69d8ddd712cf1a9d8343bc7",
-                                "tags": [],
+                                "geometry": "singular-3f8c5cde2d227540cb738e790e5e2e6c825e56a2bfb1ab6c3baa7c089884b23a",
+                                "tags": [
+                                  "Vertical"
+                                ],
                                 "bom": [
                                   []
                                 ],
@@ -6431,82 +6603,6 @@
                               [],
                               []
                             ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "dimension": "3D"
-                          },
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": "singular-97e885d7e854e5969514658f1111a7605927df9598928c3859b4f25cdb8cd104",
-                                    "tags": [
-                                      "Ring Wood"
-                                    ],
-                                    "color": "#aad7f2",
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "bom": [],
-                                    "dimension": "3D"
-                                  }
-                                ],
-                                "tags": [],
-                                "bom": [],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
                             "plane": {
                               "origin": [
                                 0,
@@ -6557,7 +6653,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-c527d1a60907bd8be1f9f9a46a68aa2b7eb376e04e69008f94b0bd4a4f342296",
+                        "geometry": "singular-d7d4d7dfa3e0c4fe1968e161b97750a51d9451c9dd52bfaf3c6fd13e55a4d01c",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -6581,7 +6677,7 @@
                         "dimension": "3D"
                       },
                       {
-                        "geometry": "singular-92e01eebbb25b670913615e2fea760a673c02188033741d158f18629b6180583",
+                        "geometry": "singular-27c05e74e70b7905ef65e5d182642c0239c7f424c3be7d368e7e3a41346d65f9",
                         "tags": [],
                         "bom": [],
                         "plane": {
@@ -6710,7 +6806,9 @@
                 "geometry": [
                   {
                     "geometry": "cut-536135625a6ba6071756a9537f83782e06867083430f9566bec5ea02d0b810af",
-                    "tags": [],
+                    "tags": [
+                      "Horizontal"
+                    ],
                     "bom": [
                       [],
                       []
@@ -6792,7 +6890,9 @@
               "name": "Shape 2",
               "ioValue": {
                 "geometry": "move-de986e045b33f96cd938cee7ef2c0426fff7044f217bc2ee7d8fc7fbfa786e3b",
-                "tags": [],
+                "tags": [
+                  "Vertical"
+                ],
                 "bom": [
                   []
                 ],
@@ -6869,7 +6969,86 @@
           "uniqueID": "1964907e-9d25-469c-a64d-c4a35d194e77",
           "ioValues": [
             {
-              "name": "Shape 2",
+              "name": "Shape 4",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-65fdf18503df8f5075b82dbc53389055e31a454bf69d18f74743db6fa3966a2c",
+                        "tags": [
+                          "Ring Wood"
+                        ],
+                        "color": "#aad7f2",
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "bom": [],
+                        "dimension": "3D"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [
+                  "Brace 1"
+                ],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 5",
               "ioValue": {
                 "geometry": [
                   {
@@ -6941,19 +7120,23 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "tags": [],
+                "tags": [
+                  "Brace 2"
+                ],
                 "bom": []
               }
             },
             {
-              "name": "Shape 3",
+              "name": "Shape 6",
               "ioValue": {
                 "geometry": [
                   {
                     "geometry": [
                       {
                         "geometry": "move-e7d81ff462470ab7b084991b5bf74d54e33620ecb2115a5668cfb2a5d9bbb746",
-                        "tags": [],
+                        "tags": [
+                          "Horizontal"
+                        ],
                         "bom": [
                           [],
                           []
@@ -7031,7 +7214,9 @@
                   },
                   {
                     "geometry": "move-7899c52845fb8d2967dbb9700da7aa4981be235f284c1619d3c386f53bb0eecc",
-                    "tags": [],
+                    "tags": [
+                      "Vertical"
+                    ],
                     "bom": [
                       []
                     ],
@@ -7081,91 +7266,14 @@
                   []
                 ]
               }
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": [
-                      {
-                        "geometry": "move-65fdf18503df8f5075b82dbc53389055e31a454bf69d18f74743db6fa3966a2c",
-                        "tags": [
-                          "Ring Wood"
-                        ],
-                        "color": "#aad7f2",
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "bom": [],
-                        "dimension": "3D"
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
             }
           ]
         },
         {
           "atomType": "ExtractTag",
           "name": "Extract Tag",
-          "x": 0.9014550264550264,
-          "y": 0.6657381615598886,
+          "x": 0.8961640211640212,
+          "y": 0.6713091922005571,
           "uniqueID": "4b80c2ec-46d6-41ea-80f1-ee7ec7557ff2",
           "ioValues": [],
           "tag": "Ring Wood",
@@ -7174,8 +7282,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.4662698412698413,
-          "y": 0.17827298050139276,
+          "x": 0.36772486772486773,
+          "y": 0.1309192200557103,
           "uniqueID": "432657b2-f633-4941-a634-0027bca437a0",
           "ioValues": [
             {
@@ -7394,8 +7502,8 @@
         {
           "atomType": "Molecule",
           "name": "Brace",
-          "x": 0.2698412698412698,
-          "y": 0.3147632311977716,
+          "x": 0.2751322751322751,
+          "y": 0.3064066852367688,
           "uniqueID": "6c168927-a08f-42f9-9e90-e8e43d2d9658",
           "ioValues": [
             {
@@ -7545,8 +7653,8 @@
         {
           "atomType": "Molecule",
           "name": "Layout",
-          "x": 0.6349206349206349,
-          "y": 0.8969359331476323,
+          "x": 0.7526455026455027,
+          "y": 0.8245125348189415,
           "uniqueID": "0b6991fb-c405-4e56-a889-c8fc874f836e",
           "ioValues": [],
           "topLevel": false,
@@ -7569,68 +7677,10 @@
               "type": "geometry"
             },
             {
-              "atomType": "CutLayout",
-              "name": "Cut Layout",
-              "x": 0.24735449735449735,
-              "y": 0.4651810584958217,
-              "uniqueID": "f5dd7ca6-b707-4db4-8829-01742e56275c",
-              "ioValues": [
-                {
-                  "name": "Sheet Width",
-                  "ioValue": 500,
-                  "currentEquation": "500"
-                },
-                {
-                  "name": "Sheet Height",
-                  "ioValue": 1219
-                },
-                {
-                  "name": "Part Padding",
-                  "ioValue": 10
-                }
-              ],
-              "placements": [
-                [
-                  {
-                    "id": 0,
-                    "rotate": 120,
-                    "translate": {
-                      "x": 83.28342099902545,
-                      "y": 277.11698637552684
-                    }
-                  },
-                  {
-                    "id": 1,
-                    "rotate": 30,
-                    "translate": {
-                      "x": 206.06776136234782,
-                      "y": 315.1813333338288
-                    }
-                  },
-                  {
-                    "id": 2,
-                    "rotate": 150,
-                    "translate": {
-                      "x": 188.09522799148033,
-                      "y": 547.6476071660968
-                    }
-                  },
-                  {
-                    "id": 3,
-                    "rotate": 60,
-                    "translate": {
-                      "x": 219.78495608302393,
-                      "y": 886.8280430436128
-                    }
-                  }
-                ]
-              ]
-            },
-            {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.611111111111111,
-              "y": 0.649025069637883,
+              "x": 0.9570105820105821,
+              "y": 0.8440111420612814,
               "uniqueID": "5e3bbe1c-98f6-4711-8d23-1d5086e9a7ed",
               "ioValues": [
                 {
@@ -7646,39 +7696,56 @@
               ]
             },
             {
-              "atomType": "Move",
-              "name": "Move",
-              "x": 0.42394179894179895,
-              "y": 0.6629526462395543,
-              "uniqueID": "97f8248d-dfc0-4ae4-8a52-577da073d7c8",
-              "ioValues": [
-                {
-                  "name": "xDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": -550,
-                  "currentEquation": "-550"
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
               "atomType": "Circle",
               "name": "Circle",
-              "x": 0.5026455026455027,
-              "y": 0.6740947075208913,
-              "uniqueID": "572ecbb4-12f9-4d5a-b7d2-6d06ee38e395",
+              "x": 0.9616402116402117,
+              "y": 0.28690807799442897,
+              "uniqueID": "9e504a6d-097d-4886-851d-42174553a073",
               "ioValues": [
                 {
                   "name": "diameter",
                   "ioValue": 10
                 }
               ]
+            },
+            {
+              "atomType": "ExtractTag",
+              "name": "Extract Tag",
+              "x": 0.10317460317460318,
+              "y": 0.29526462395543174,
+              "uniqueID": "4c577967-2d5c-405c-9c58-e9a45f509c21",
+              "ioValues": [],
+              "tag": "Brace 1",
+              "tagIndex": 0
+            },
+            {
+              "atomType": "ExtractTag",
+              "name": "Extract Tag",
+              "x": 0.23015873015873015,
+              "y": 0.7604456824512534,
+              "uniqueID": "78bbd89b-e6e8-4189-b27c-f498d0599a68",
+              "ioValues": [],
+              "tagIndex": 0
+            },
+            {
+              "atomType": "ExtractTag",
+              "name": "Extract Tag",
+              "x": 0.14682539682539683,
+              "y": 0.4651810584958217,
+              "uniqueID": "a1903f04-a2a1-4250-b91f-68adf4c56d55",
+              "ioValues": [],
+              "tag": "Brace 2",
+              "tagIndex": 0
+            },
+            {
+              "atomType": "ExtractTag",
+              "name": "Extract Tag",
+              "x": 0.23544973544973544,
+              "y": 0.5988857938718662,
+              "uniqueID": "04127d0b-0d69-4a95-aa85-0f2e94a8571f",
+              "ioValues": [],
+              "tag": "Vertical",
+              "tagIndex": 0
             }
           ],
           "allConnectors": [
@@ -7686,13 +7753,25 @@
               "ap1Name": "number or geometry",
               "ap2Name": "geometry",
               "ap1ID": "c909ac5f-4b69-4b78-8881-0d985cf07b37",
-              "ap2ID": "f5dd7ca6-b707-4db4-8829-01742e56275c"
+              "ap2ID": "4c577967-2d5c-405c-9c58-e9a45f509c21"
             },
             {
-              "ap1Name": "geometry",
+              "ap1Name": "number or geometry",
               "ap2Name": "geometry",
-              "ap1ID": "f5dd7ca6-b707-4db4-8829-01742e56275c",
-              "ap2ID": "97f8248d-dfc0-4ae4-8a52-577da073d7c8"
+              "ap1ID": "c909ac5f-4b69-4b78-8881-0d985cf07b37",
+              "ap2ID": "78bbd89b-e6e8-4189-b27c-f498d0599a68"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "c909ac5f-4b69-4b78-8881-0d985cf07b37",
+              "ap2ID": "a1903f04-a2a1-4250-b91f-68adf4c56d55"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "c909ac5f-4b69-4b78-8881-0d985cf07b37",
+              "ap2ID": "04127d0b-0d69-4a95-aa85-0f2e94a8571f"
             },
             {
               "ap1Name": "geometry",
@@ -8178,6 +8257,17 @@
               ],
               "fileTypeVersion": 1,
               "compiledBom": []
+            },
+            {
+              "atomType": "Tag",
+              "name": "Vertical",
+              "x": 0.9087301587301588,
+              "y": 0.796657381615599,
+              "uniqueID": "111e2d6b-98bb-430c-8035-619c3b9edaee",
+              "ioValues": [],
+              "tags": [
+                "Vertical"
+              ]
             }
           ],
           "allConnectors": [
@@ -8189,9 +8279,9 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "51afc630-3cbb-4ea8-96bc-e7ae15930a9d",
-              "ap2ID": "1b9776b6-66d7-478a-80d7-524fd6770531"
+              "ap2ID": "111e2d6b-98bb-430c-8035-619c3b9edaee"
             },
             {
               "ap1Name": "number or geometry",
@@ -8258,6 +8348,12 @@
               "ap2Name": "Shape 3",
               "ap1ID": "e710ab90-a78c-4320-9d97-8e9873a7dc11",
               "ap2ID": "43eba4a1-25cb-45b4-89b5-2666d8de0c90"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "111e2d6b-98bb-430c-8035-619c3b9edaee",
+              "ap2ID": "1b9776b6-66d7-478a-80d7-524fd6770531"
             }
           ],
           "fileTypeVersion": 1,
@@ -8322,7 +8418,7 @@
             {
               "atomType": "Extrude",
               "name": "Extrude",
-              "x": 0.8141534391534391,
+              "x": 0.8029100529100529,
               "y": 0.1894150417827298,
               "uniqueID": "0d2b0542-94cf-47c4-9031-0aa375873ad4",
               "ioValues": [
@@ -9009,7 +9105,9 @@
                       "name": "Shape 1",
                       "ioValue": {
                         "geometry": "extrude-a60c2c060dfe9689bc6f6ab6176859841a3924bc1b22bdb05a55c0a687a2ab37",
-                        "tags": [],
+                        "tags": [
+                          "Horizontal"
+                        ],
                         "bom": [
                           [],
                           []
@@ -9182,6 +9280,17 @@
               ],
               "fileTypeVersion": 1,
               "compiledBom": []
+            },
+            {
+              "atomType": "Tag",
+              "name": "Horizontal",
+              "x": 0.8339947089947091,
+              "y": 0.5097493036211699,
+              "uniqueID": "7fe8e832-da12-424e-a749-54da06d609b5",
+              "ioValues": [],
+              "tags": [
+                "Horizontal"
+              ]
             }
           ],
           "allConnectors": [
@@ -9199,9 +9308,9 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "input",
+              "ap2Name": "geometry",
               "ap1ID": "0d2b0542-94cf-47c4-9031-0aa375873ad4",
-              "ap2ID": "5984b530-40c2-42c1-bd3c-06301ae78425"
+              "ap2ID": "7fe8e832-da12-424e-a749-54da06d609b5"
             },
             {
               "ap1Name": "number or geometry",
@@ -9316,6 +9425,12 @@
               "ap2Name": "number or geometry",
               "ap1ID": "5984b530-40c2-42c1-bd3c-06301ae78425",
               "ap2ID": "5bc9f8ea-446d-4012-a5f7-a5250f6ba265"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "input",
+              "ap1ID": "7fe8e832-da12-424e-a749-54da06d609b5",
+              "ap2ID": "5984b530-40c2-42c1-bd3c-06301ae78425"
             }
           ],
           "fileTypeVersion": 1,
@@ -9324,8 +9439,8 @@
         {
           "atomType": "Molecule",
           "name": "Add Panels",
-          "x": 0.7281746031746031,
-          "y": 0.7938718662952646,
+          "x": 0.7136243386243386,
+          "y": 0.6601671309192201,
           "uniqueID": "f0bb7df2-4c0d-467e-8e36-469f88e0b410",
           "ioValues": [
             {
@@ -9368,7 +9483,7 @@
                           {
                             "geometry": [
                               {
-                                "geometry": "cut-3ea995670931efd786869df99ff3b55cdb418f96fd0a3dab73cd56f96b79fccc",
+                                "geometry": "cut-e062bc1df08a02d1b0aabc2feb08e5c4b01775cfc92a5f1a4fcd8f3b92a1da4f",
                                 "tags": [
                                   "Ring Wood"
                                 ],
@@ -9416,7 +9531,9 @@
                             "color": "#aad7f2"
                           }
                         ],
-                        "tags": [],
+                        "tags": [
+                          "Brace 1"
+                        ],
                         "bom": [],
                         "plane": {
                           "origin": [
@@ -9442,8 +9559,86 @@
                           {
                             "geometry": [
                               {
-                                "geometry": "cut-0735453e9ffb844a5822c0c36e35745c45d064c0ceafd23b52cfc1e4a631dc0e",
-                                "tags": [],
+                                "geometry": "cut-d3a4ccc7ae8263636d87c14b2f0dc76b73d0042259cf562b6f6551b4250c4bdf",
+                                "tags": [
+                                  "Ring Wood"
+                                ],
+                                "color": "#aad7f2",
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "bom": [],
+                                "dimension": "3D"
+                              }
+                            ],
+                            "tags": [],
+                            "bom": [],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2"
+                          }
+                        ],
+                        "tags": [
+                          "Brace 2"
+                        ],
+                        "bom": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2"
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": [
+                              {
+                                "geometry": "move-e7d81ff462470ab7b084991b5bf74d54e33620ecb2115a5668cfb2a5d9bbb746",
+                                "tags": [
+                                  "Horizontal"
+                                ],
                                 "bom": [
                                   [],
                                   []
@@ -9469,7 +9664,7 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "cut-01186bda77e90696f7719befd6028452a5c96adca9e119b6d3a34c24a98728fb",
+                                "geometry": "move-2e6eb410c216ebc5b294d13de32a2b025e042f88d9b6820b67f245e8f006a5dc",
                                 "dimension": "3D",
                                 "plane": {
                                   "origin": [
@@ -9521,7 +9716,9 @@
                           },
                           {
                             "geometry": "move-7899c52845fb8d2967dbb9700da7aa4981be235f284c1619d3c386f53bb0eecc",
-                            "tags": [],
+                            "tags": [
+                              "Vertical"
+                            ],
                             "bom": [
                               []
                             ],
@@ -9552,80 +9749,6 @@
                           [],
                           []
                         ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2"
-                      },
-                      {
-                        "geometry": [
-                          {
-                            "geometry": [
-                              {
-                                "geometry": "move-65fdf18503df8f5075b82dbc53389055e31a454bf69d18f74743db6fa3966a2c",
-                                "tags": [
-                                  "Ring Wood"
-                                ],
-                                "color": "#aad7f2",
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "bom": [],
-                                "dimension": "3D"
-                              }
-                            ],
-                            "tags": [],
-                            "bom": [],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2"
-                          }
-                        ],
-                        "tags": [],
-                        "bom": [],
                         "plane": {
                           "origin": [
                             0,
@@ -10848,6 +10971,28 @@
           ],
           "fileTypeVersion": 1,
           "compiledBom": []
+        },
+        {
+          "atomType": "Tag",
+          "name": "Brace 2",
+          "x": 0.458994708994709,
+          "y": 0.3064066852367688,
+          "uniqueID": "a446ab5b-0bd1-4953-8860-05ece577d211",
+          "ioValues": [],
+          "tags": [
+            "Brace 2"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "name": "Brace 1",
+          "x": 0.4708994708994709,
+          "y": 0.116991643454039,
+          "uniqueID": "8ce78996-e02c-49e0-b293-98292e498d8d",
+          "ioValues": [],
+          "tags": [
+            "Brace 1"
+          ]
         }
       ],
       "allConnectors": [
@@ -10937,7 +11082,7 @@
         },
         {
           "ap1Name": "geometry",
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 6",
           "ap1ID": "4eb5b8a3-3084-4f90-bdfe-0cb55d62badb",
           "ap2ID": "1964907e-9d25-469c-a64d-c4a35d194e77"
         },
@@ -10949,21 +11094,15 @@
         },
         {
           "ap1Name": "geometry",
-          "ap2Name": "Shape 4",
+          "ap2Name": "geometry",
           "ap1ID": "432657b2-f633-4941-a634-0027bca437a0",
-          "ap2ID": "1964907e-9d25-469c-a64d-c4a35d194e77"
+          "ap2ID": "8ce78996-e02c-49e0-b293-98292e498d8d"
         },
         {
           "ap1Name": "geometry",
           "ap2Name": "input",
           "ap1ID": "ed264fdb-3594-4a2e-bcc8-002405290d1d",
           "ap2ID": "f0bb7df2-4c0d-467e-8e36-469f88e0b410"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "input",
-          "ap1ID": "ed264fdb-3594-4a2e-bcc8-002405290d1d",
-          "ap2ID": "0b6991fb-c405-4e56-a889-c8fc874f836e"
         },
         {
           "ap1Name": "geometry or number",
@@ -10979,15 +11118,15 @@
         },
         {
           "ap1Name": "geometry or number",
-          "ap2Name": "Shape 2",
+          "ap2Name": "geometry",
           "ap1ID": "6c168927-a08f-42f9-9e90-e8e43d2d9658",
-          "ap2ID": "1964907e-9d25-469c-a64d-c4a35d194e77"
+          "ap2ID": "432657b2-f633-4941-a634-0027bca437a0"
         },
         {
           "ap1Name": "geometry or number",
           "ap2Name": "geometry",
           "ap1ID": "6c168927-a08f-42f9-9e90-e8e43d2d9658",
-          "ap2ID": "432657b2-f633-4941-a634-0027bca437a0"
+          "ap2ID": "a446ab5b-0bd1-4953-8860-05ece577d211"
         },
         {
           "ap1Name": "geometry or number",
@@ -11006,6 +11145,24 @@
           "ap2Name": "Geometry",
           "ap1ID": "f0bb7df2-4c0d-467e-8e36-469f88e0b410",
           "ap2ID": "06ee6a54-55f8-4367-b072-cc6f5c78f4a8"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "input",
+          "ap1ID": "f0bb7df2-4c0d-467e-8e36-469f88e0b410",
+          "ap2ID": "0b6991fb-c405-4e56-a889-c8fc874f836e"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 5",
+          "ap1ID": "a446ab5b-0bd1-4953-8860-05ece577d211",
+          "ap2ID": "1964907e-9d25-469c-a64d-c4a35d194e77"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 4",
+          "ap1ID": "8ce78996-e02c-49e0-b293-98292e498d8d",
+          "ap2ID": "1964907e-9d25-469c-a64d-c4a35d194e77"
         }
       ],
       "fileTypeVersion": 1,
