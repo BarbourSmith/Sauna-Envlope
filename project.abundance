@@ -7934,8 +7934,8 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.6395502645502645,
-              "y": 0.4735376044568245,
+              "x": 0.625,
+              "y": 0.479108635097493,
               "uniqueID": "e3b46f91-f358-4483-bee0-f966e082e4f9",
               "ioValues": [
                 {
@@ -8475,6 +8475,61 @@
                   }
                 }
               ]
+            },
+            {
+              "atomType": "Move",
+              "name": "Move",
+              "x": 0.6884920634920635,
+              "y": 0.38718662952646243,
+              "uniqueID": "a270206d-d002-4a4d-8b95-19579568e266",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 800,
+                  "currentEquation": "800"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Gcode",
+              "name": "Gcode",
+              "x": 0.7903439153439152,
+              "y": 0.2813370473537604,
+              "uniqueID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3",
+              "ioValues": [
+                {
+                  "name": "Tool Size",
+                  "ioValue": 6.35
+                },
+                {
+                  "name": "Passes",
+                  "ioValue": 2,
+                  "currentEquation": "2"
+                },
+                {
+                  "name": "Speed",
+                  "ioValue": 1800,
+                  "currentEquation": "1800"
+                },
+                {
+                  "name": "Cut Through",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Layout"
+                }
+              ],
+              "partName": "Layout",
+              "sortDirection": "Top"
             }
           ],
           "allConnectors": [
@@ -8501,6 +8556,12 @@
               "ap2Name": "geometry",
               "ap1ID": "c909ac5f-4b69-4b78-8881-0d985cf07b37",
               "ap2ID": "04127d0b-0d69-4a95-aa85-0f2e94a8571f"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "9e504a6d-097d-4886-851d-42174553a073",
+              "ap2ID": "bb0841b7-f74b-4ff4-8d43-4da6b2fa4065"
             },
             {
               "ap1Name": "output",
@@ -8576,9 +8637,15 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "e3b46f91-f358-4483-bee0-f966e082e4f9",
-              "ap2ID": "bb0841b7-f74b-4ff4-8d43-4da6b2fa4065"
+              "ap2ID": "a270206d-d002-4a4d-8b95-19579568e266"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "a270206d-d002-4a4d-8b95-19579568e266",
+              "ap2ID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3"
             }
           ],
           "fileTypeVersion": 1,
