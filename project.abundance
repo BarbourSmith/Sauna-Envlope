@@ -8527,8 +8527,8 @@
             {
               "atomType": "Gcode",
               "name": "Gcode",
-              "x": 0.8624338624338624,
-              "y": 0.28690807799442897,
+              "x": 0.931878306878307,
+              "y": 0.2590529247910863,
               "uniqueID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3",
               "ioValues": [
                 {
@@ -9236,305 +9236,7 @@
                 },
                 {
                   "name": "Shape 4",
-                  "ioValue": {
-                    "geometry": [
-                      {
-                        "geometry": [
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": [
-                                      {
-                                        "geometry": "move-1f390ea41d1cf51075cd05adbc241c42a26ba84bb8c84e13a9dc47534e268d3d",
-                                        "tags": [
-                                          "Ring Wood"
-                                        ],
-                                        "color": "#aad7f2",
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "bom": [],
-                                        "dimension": "3D"
-                                      }
-                                    ],
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "color": "#aad7f2",
-                                    "tags": [],
-                                    "bom": []
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [
-                                  "Brace 2"
-                                ],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [
-                              "Seat Parts"
-                            ],
-                            "bom": [
-                              [],
-                              [],
-                              []
-                            ]
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": [
-                          [],
-                          [],
-                          []
-                        ]
-                      },
-                      {
-                        "geometry": [
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": [
-                                      {
-                                        "geometry": "move-8daec8051e2d864f1e4def4ccb55856378151d97e6a5371f84f7aab7775a76eb",
-                                        "tags": [
-                                          "Ring Wood"
-                                        ],
-                                        "color": "#aad7f2",
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "bom": [],
-                                        "dimension": "3D"
-                                      }
-                                    ],
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "color": "#aad7f2",
-                                    "tags": [],
-                                    "bom": []
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [
-                                  "Brace 1"
-                                ],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [
-                              "Seat Parts"
-                            ],
-                            "bom": [
-                              [],
-                              [],
-                              []
-                            ]
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": [
-                          [],
-                          [],
-                          []
-                        ]
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": [
-                      [],
-                      [],
-                      [],
-                      [],
-                      [],
-                      []
-                    ]
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 5",
@@ -9843,8 +9545,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.7289682539682539,
-              "y": 0.5181058495821727,
+              "x": 0.7301587301587301,
+              "y": 0.5877437325905293,
               "uniqueID": "7ed000e3-b719-4ea5-8c8f-e26936f4f800",
               "ioValues": [
                 {
@@ -9878,8 +9580,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.6845238095238095,
-              "y": 0.32869080779944293,
+              "x": 0.6653439153439153,
+              "y": 0.1894150417827298,
               "uniqueID": "a3ad67da-a99f-4832-be62-6750b7c09610",
               "ioValues": [
                 {
@@ -10030,12 +9732,6 @@
               "ap2Name": "Shape 3",
               "ap1ID": "3f96d40e-c5be-445e-aae2-c819fbe91387",
               "ap2ID": "314c67ba-5103-420e-af91-f4de9286e824"
-            },
-            {
-              "ap1Name": "geometry",
-              "ap2Name": "geometry",
-              "ap1ID": "314c67ba-5103-420e-af91-f4de9286e824",
-              "ap2ID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3"
             },
             {
               "ap1Name": "geometry",
