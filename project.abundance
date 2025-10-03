@@ -8538,8 +8538,8 @@
             {
               "atomType": "Gcode",
               "name": "Gcode",
-              "x": 0.931878306878307,
-              "y": 0.2590529247910863,
+              "x": 0.8915343915343915,
+              "y": 0.24512534818941506,
               "uniqueID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3",
               "ioValues": [
                 {
@@ -8560,7 +8560,7 @@
                 },
                 {
                   "name": "Part Name",
-                  "ioValue": "Right Side Deeper"
+                  "ioValue": "Just two Right"
                 }
               ],
               "partName": "Layout",
@@ -10037,15 +10037,15 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "Shape 3",
-              "ap1ID": "3f96d40e-c5be-445e-aae2-c819fbe91387",
-              "ap2ID": "314c67ba-5103-420e-af91-f4de9286e824"
+              "ap2Name": "geometry",
+              "ap1ID": "d35717d1-0958-4cba-adc8-c7c5a549a124",
+              "ap2ID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3"
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "geometry",
-              "ap1ID": "314c67ba-5103-420e-af91-f4de9286e824",
-              "ap2ID": "4dd1f5a3-62ae-4c1e-b999-81bbc94c29f3"
+              "ap2Name": "Shape 3",
+              "ap1ID": "3f96d40e-c5be-445e-aae2-c819fbe91387",
+              "ap2ID": "314c67ba-5103-420e-af91-f4de9286e824"
             },
             {
               "ap1Name": "geometry",
