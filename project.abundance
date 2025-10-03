@@ -8626,312 +8626,10 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.8022486772486772,
-              "y": 0.5543175487465182,
+              "x": 0.8095238095238095,
+              "y": 0.5264623955431754,
               "uniqueID": "314c67ba-5103-420e-af91-f4de9286e824",
               "ioValues": [
-                {
-                  "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": [
-                      {
-                        "geometry": [
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": [
-                                      {
-                                        "geometry": "rotate-8903a81e9df7152d1cc0eaa2f6ce9707b3dc870535d3863bd7474d2f04af500f",
-                                        "tags": [
-                                          "Ring Wood"
-                                        ],
-                                        "color": "#aad7f2",
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "bom": [],
-                                        "dimension": "3D"
-                                      }
-                                    ],
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "color": "#aad7f2",
-                                    "tags": [],
-                                    "bom": []
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [
-                                  "Brace 2"
-                                ],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [
-                              "Seat Parts"
-                            ],
-                            "bom": [
-                              [],
-                              [],
-                              []
-                            ]
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": [
-                          [],
-                          [],
-                          []
-                        ]
-                      },
-                      {
-                        "geometry": [
-                          {
-                            "geometry": [
-                              {
-                                "geometry": [
-                                  {
-                                    "geometry": [
-                                      {
-                                        "geometry": "rotate-1c946943f6805cf5c9c8ad7880a5b28a10514af8c831b68ea19877da90ffa38f",
-                                        "tags": [
-                                          "Ring Wood"
-                                        ],
-                                        "color": "#aad7f2",
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "bom": [],
-                                        "dimension": "3D"
-                                      }
-                                    ],
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "color": "#aad7f2",
-                                    "tags": [],
-                                    "bom": []
-                                  }
-                                ],
-                                "plane": {
-                                  "origin": [
-                                    0,
-                                    0,
-                                    0
-                                  ],
-                                  "xDir": [
-                                    1,
-                                    0,
-                                    0
-                                  ],
-                                  "normal": [
-                                    0,
-                                    0,
-                                    1
-                                  ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [
-                                  "Brace 1"
-                                ],
-                                "bom": []
-                              }
-                            ],
-                            "plane": {
-                              "origin": [
-                                0,
-                                0,
-                                0
-                              ],
-                              "xDir": [
-                                1,
-                                0,
-                                0
-                              ],
-                              "normal": [
-                                0,
-                                0,
-                                1
-                              ]
-                            },
-                            "color": "#aad7f2",
-                            "tags": [
-                              "Seat Parts"
-                            ],
-                            "bom": [
-                              [],
-                              [],
-                              []
-                            ]
-                          }
-                        ],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "tags": [],
-                        "bom": [
-                          [],
-                          [],
-                          []
-                        ]
-                      }
-                    ],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "tags": [],
-                    "bom": [
-                      [],
-                      [],
-                      [],
-                      [],
-                      [],
-                      []
-                    ]
-                  }
-                },
                 {
                   "name": "Shape 2",
                   "ioValue": {
@@ -9837,6 +9535,308 @@
                       []
                     ]
                   }
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": {
+                    "geometry": [
+                      {
+                        "geometry": [
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": [
+                                      {
+                                        "geometry": "move-0bf6d07c13fb17ce552b68590c9dd5a3f5e76734fb50ef00f006df49b93aab97",
+                                        "tags": [
+                                          "Ring Wood"
+                                        ],
+                                        "color": "#aad7f2",
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "bom": [],
+                                        "dimension": "3D"
+                                      }
+                                    ],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "tags": [],
+                                    "bom": []
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [
+                                  "Brace 2"
+                                ],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Seat Parts"
+                            ],
+                            "bom": [
+                              [],
+                              [],
+                              []
+                            ]
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          [],
+                          [],
+                          []
+                        ]
+                      },
+                      {
+                        "geometry": [
+                          {
+                            "geometry": [
+                              {
+                                "geometry": [
+                                  {
+                                    "geometry": [
+                                      {
+                                        "geometry": "move-42a6c08b9a289d4e1a8cfebb3e044a48fa984e68839ad870b2995dc2896d53e8",
+                                        "tags": [
+                                          "Ring Wood"
+                                        ],
+                                        "color": "#aad7f2",
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "bom": [],
+                                        "dimension": "3D"
+                                      }
+                                    ],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "color": "#aad7f2",
+                                    "tags": [],
+                                    "bom": []
+                                  }
+                                ],
+                                "plane": {
+                                  "origin": [
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "xDir": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "normal": [
+                                    0,
+                                    0,
+                                    1
+                                  ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [
+                                  "Brace 1"
+                                ],
+                                "bom": []
+                              }
+                            ],
+                            "plane": {
+                              "origin": [
+                                0,
+                                0,
+                                0
+                              ],
+                              "xDir": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "normal": [
+                                0,
+                                0,
+                                1
+                              ]
+                            },
+                            "color": "#aad7f2",
+                            "tags": [
+                              "Seat Parts"
+                            ],
+                            "bom": [
+                              [],
+                              [],
+                              []
+                            ]
+                          }
+                        ],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "tags": [],
+                        "bom": [
+                          [],
+                          [],
+                          []
+                        ]
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [
+                      [],
+                      [],
+                      [],
+                      [],
+                      [],
+                      []
+                    ]
+                  }
                 }
               ]
             },
@@ -9884,7 +9884,8 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": 500,
+                  "currentEquation": "500"
                 },
                 {
                   "name": "yDist",
@@ -10008,12 +10009,6 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "Shape 1",
-              "ap1ID": "eed33424-8eab-4b83-82db-ca036e94cf72",
-              "ap2ID": "314c67ba-5103-420e-af91-f4de9286e824"
-            },
-            {
-              "ap1Name": "geometry",
               "ap2Name": "geometry",
               "ap1ID": "eed33424-8eab-4b83-82db-ca036e94cf72",
               "ap2ID": "7ed000e3-b719-4ea5-8c8f-e26936f4f800"
@@ -10053,6 +10048,12 @@
               "ap2Name": "number or geometry",
               "ap1ID": "a5ffe60b-4842-4d7c-8dbc-058c475f3af0",
               "ap2ID": "bb0841b7-f74b-4ff4-8d43-4da6b2fa4065"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "Shape 5",
+              "ap1ID": "a3ad67da-a99f-4832-be62-6750b7c09610",
+              "ap2ID": "314c67ba-5103-420e-af91-f4de9286e824"
             }
           ],
           "fileTypeVersion": 1,
