@@ -1475,8 +1475,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.544973544973545,
-          "y": 0.9247910863509751,
+          "x": 0.5529100529100529,
+          "y": 0.9025069637883008,
           "uniqueID": "id-1532",
           "name": "Chimney_Mounting_Ring",
           "topLevel": false,
@@ -1974,18 +1974,18 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.826058201058201,
-          "y": 0.8941504178272981,
+          "x": 0.8267195767195767,
+          "y": 0.9025069637883008,
           "uniqueID": "id-1593",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 300
             },
             {
               "name": "y length",
-              "ioValue": 380,
-              "currentEquation": "380"
+              "ioValue": 390,
+              "currentEquation": "390"
             }
           ]
         }
