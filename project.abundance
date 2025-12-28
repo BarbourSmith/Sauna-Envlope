@@ -1016,7 +1016,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 2438.4
+              "ioValue": 2438.4,
+              "currentEquation": "2438.4"
             }
           ]
         },
@@ -1054,8 +1055,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2486772486772487,
-          "y": 0.8212290502793296,
+          "x": 0.25396825396825395,
+          "y": 0.8272980501392758,
           "uniqueID": "00971c31-9e80-417b-afd2-8a172a8fad56",
           "ioValues": [
             {
@@ -1321,8 +1322,8 @@
         },
         {
           "atomType": "Readme",
-          "x": 0.7242063492063492,
-          "y": 0.8240223463687151,
+          "x": 0.5753968253968255,
+          "y": 0.12534818941504178,
           "uniqueID": "521c7888-a694-4b44-b95a-e5c430b03cf4",
           "name": "README",
           "readMeText": "Readme text here",
@@ -1475,8 +1476,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.5529100529100529,
-          "y": 0.9025069637883008,
+          "x": 0.3948412698412699,
+          "y": 0.8885793871866295,
           "uniqueID": "id-1532",
           "name": "Chimney_Mounting_Ring",
           "topLevel": false,
@@ -1974,18 +1975,41 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.8267195767195767,
-          "y": 0.9025069637883008,
+          "x": 0.5297619047619048,
+          "y": 0.9247910863509751,
           "uniqueID": "id-1593",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 300
+              "ioValue": 2438.4,
+              "currentEquation": "2438.4"
             },
             {
               "name": "y length",
               "ioValue": 390,
               "currentEquation": "390"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6633597883597884,
+          "y": 0.8551532033426184,
+          "uniqueID": "id-1597",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -1219.2,
+              "currentEquation": "-2438.4/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -2085,6 +2109,11 @@
           "ap2Name": "geometry",
           "ap1ID": "accbe5d5-10ba-4ced-a44e-559ad539a035",
           "ap2ID": "2142b217-541c-4c59-92d7-2c3b61349897"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1593",
+          "ap2ID": "id-1597"
         }
       ],
       "fileTypeVersion": 1
