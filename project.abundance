@@ -1061,7 +1061,8 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -549.6
+              "ioValue": -549.6,
+              "currentEquation": "-549.6"
             },
             {
               "name": "yDist",
@@ -1168,7 +1169,8 @@
             },
             {
               "name": "y length",
-              "ioValue": 1099.2
+              "ioValue": 1099.2,
+              "currentEquation": "1099.2"
             }
           ]
         },
@@ -2004,8 +2006,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": -229.60000000000002,
+              "currentEquation": "1099.2/-2 + 320"
             },
             {
               "name": "zDist",
